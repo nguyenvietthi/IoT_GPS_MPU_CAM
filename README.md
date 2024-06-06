@@ -6,8 +6,11 @@ Following/Tracking Vehicle
 
 .
 ├── client                   # Client Code (Android App)
+
 ├── server                   # Server Deployment (Flash Platform in Linux)
+
 ├── device                   # Device Code (ESP)
+
 └── README.md
 
 ## Getting Started
