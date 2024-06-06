@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corner_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Select Date and Time"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/dateTimeEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Time"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginTop="0dp"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/dateTimeEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Finish Time"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginTop="0dp"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- Add more views as needed -->
+
+</LinearLayout>
