@@ -19,6 +19,9 @@ Following/Tracking Vehicle
 https://developer.android.com/studio
 ```
 * Open app from Client Folder
+
+#### Deploy Server
+* Install required packages
 ### Executing program
 
 * How to run the program
@@ -27,17 +30,4 @@ https://developer.android.com/studio
 code blocks for commands
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
