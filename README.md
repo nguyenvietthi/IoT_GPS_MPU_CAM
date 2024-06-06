@@ -22,12 +22,6 @@ https://developer.android.com/studio
 
 #### Deploy Server
 * Install required packages
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* run app.py
 
 
