@@ -1,8 +1,15 @@
 from flask import Flask, render_template, request, make_response, jsonify, redirect, Response
 import requests
+import cv2
+import numpy as np
+import threading
 from flask_cors import CORS
 import secrets
 import sqlite3
+
+from io import BytesIO
+from PIL import Image
+from base64 import b64encode
 
 def get_db_connection():
     conn = sqlite3.connect('instance/database.db')
@@ -244,59 +251,37 @@ def get_location_history_list():
     response = make_response(jsonify(response_body), 200)
     return response
 
-# @app.route('/update-image', methods=['POST'])
-# def update_image():
-#     imagefile = request.files.get('imagefile', '')
-#     response_body = {"message": "OK"}
-#     print(imagefile, response_body)
+def get_image():
+    while True:
+        try:
+            with open("instance/image.jpg", "rb") as f:
+                image_bytes = f.read()
+            image = Image.open(BytesIO(image_bytes))
+            img_io = BytesIO()
+            image.save(img_io, 'JPEG')
+            img_io.seek(0)
+            img_bytes = img_io.read()
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + img_bytes + b'\r\n')
 
-#     response = make_response(jsonify(response_body), 200)
-    return response
+        except Exception as e:
+            print("encountered an exception: ")
+            print(e)
 
-latest_frame = None
-import cv2
-video_path = 'instance/a.mp4'
-
-# Function to generate frames for streaming
-# def generate_frames():
-#     while True:
-#         global latest_frame
-#         if latest_frame is not None:
-#             yield (b'--frame\r\n'
-#                    b'Content-Type: image/jpeg\r\n\r\n' + latest_frame + b'\r\n')
-#         else:
-#             yield b''
-
-def generate_frames():
-    cap = cv2.VideoCapture(video_path)  # Initialize video capture with the video file
-
-    while cap.isOpened():
-        success, frame = cap.read()  # Read frame from the video file
-        if not success:
-            break
-        
-        ret, buffer = cv2.imencode('.jpg', frame)  # Convert frame to JPEG format
-        if not ret:
+            with open("instance/image.jpg", "rb") as f:
+                image_bytes = f.read()
+            image = Image.open(BytesIO(image_bytes))
+            img_io = BytesIO()
+            image.save(img_io, 'JPEG')
+            img_io.seek(0)
+            img_bytes = img_io.read()
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + img_bytes + b'\r\n')
             continue
-
-        frame_bytes = buffer.tobytes()  # Convert frame to bytes
-
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')  # Yield frame as part of multipart content
-
-    cap.release()
-
-# Endpoint to receive images from camera,
-@app.route('/update-image', methods=['POST'])
-def upload_image():
-    global latest_frame
-    image = request.data  # Get the image data from the request
-    latest_frame = image  # Update the latest frame with the received image
-    return 'Image received'
 
 @app.route('/stream')
 def stream():
-    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(get_image(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=1234)
