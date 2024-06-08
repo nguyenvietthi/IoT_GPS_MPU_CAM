@@ -1,4 +1,4 @@
-#Thu Jun 06 00:06:25 ICT 2024
+#Sat Jun 08 21:11:49 ICT 2024
 base.0=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex

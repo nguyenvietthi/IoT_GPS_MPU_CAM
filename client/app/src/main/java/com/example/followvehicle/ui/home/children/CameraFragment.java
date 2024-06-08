@@ -26,7 +26,7 @@ public class CameraFragment extends Fragment {
         webSettings.setJavaScriptEnabled(true);
 
         // Đặt URL của luồng video từ Flask server
-        String videoUrl = "http://192.168.1.68:1234/";
+        String videoUrl = "http://20.2.67.40:1234/";
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(videoUrl);
         return view;
