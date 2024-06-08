@@ -8,8 +8,10 @@ sudo ufw allow 'Nginx Full'
 pip install -r requirements
 apt install firewalld
 
-firewall-cmd --add-port=1234/tcp
-firewall-cmd --add-port=12345/tcp
+firewall-cmd --zone=public --add-port=12345/tcp --permanent
+firewall-cmd --zone=public --add-port=1234/tcp --permanent
+
+sudo firewall-cmd --reload
 
 cp -r receive_stream.service /etc/systemd/system/
 

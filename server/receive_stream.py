@@ -22,7 +22,7 @@ async def handle_connection(websocket, path):
             if len(message) > 5000:
                   if is_valid_image(message):
                         #   print(message)
-                          with open("server/instance/image.jpg", "wb") as f:
+                          with open("instance/image.jpg", "wb") as f:
                                 f.write(message)
 
             print()

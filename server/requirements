@@ -3,3 +3,4 @@ flask_cors
 opencv-python
 gunicorn
 websockets
+pillow
