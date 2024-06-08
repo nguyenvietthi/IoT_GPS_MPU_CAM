@@ -1,0 +1,6 @@
+<!-- res/drawable/rounded_corner_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F8F8FF" /> <!-- Màu xám nhạt -->
+<!--    <corners android:radius="30dp" /> &lt;!&ndash; Bo góc &ndash;&gt;-->
+</shape>

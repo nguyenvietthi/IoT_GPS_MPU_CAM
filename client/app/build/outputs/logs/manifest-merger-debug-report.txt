@@ -1,0 +1,987 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.mapbox.navigation:android:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\54c0cf5b8ea98d9053c2f9b761435869\transformed\android-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-maneuver:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\36e170426c8d183013ca32c127729fec\transformed\ui-maneuver-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-maps:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ffa7f917bce44f5dc54e0d188c9406de\transformed\ui-maps-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-shields:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\d1cf00b911f0654b70822ca6bd1ade65\transformed\ui-shields-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e6e9aca96343ade99fbd5aa70c89b8b\transformed\ui-speedlimit-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\7615f05acbaa6636b239086cd5d0f11b\transformed\ui-tripprogress-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-voice:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\06fa6acc78f92fa056d731815912fdc9\transformed\ui-voice-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-status:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\f6bc55510726cef9f91d663188908ec6\transformed\ui-status-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:copilot:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\3edc2271c22f796b8330d1954a16d48a\transformed\copilot-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-base:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\0b8ffa1abb2faa065555a5917c8a9c97\transformed\ui-base-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.navigation:router:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e0d4eef12a8fe3c16e00428027441510\transformed\router-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:notification:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\693b41581e6b800aa15ed2be9894ca9a\transformed\notification-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:navigator:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\cb4592495b337c142cc5db8c27dcc110\transformed\navigator-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:metrics:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e72f2ed06c32d0e855d0931cb77a69e\transformed\metrics-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:base:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\316eb2da1f33fa5deb6528d098c7d18e\transformed\base-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\36a75003a26e9c7445f9dfd04d49978b\transformed\ui-utils-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\b7e296cdd66eb4a11ec407fb22abeec6\transformed\utils-2.15.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.navigation:ui-resources:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\16e13f99fad2ba0b45fa01653656634d\transformed\ui-resources-2.15.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:8.4.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bf06d52320503d774f1428a2c8b1b6e7\transformed\viewbinding-8.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\554aa86056191cbb5192be57e4d37e9d\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\30c46f01ef4e414873e9059a8b09b5fd\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\15989918d0dad22f4ac1cb6ed9f3e0f2\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\4ce6a391cfc281c321926be5e167cc77\transformed\navigation-ui-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7138cde3f4652d282c4b81a40a3f7460\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\0f14ba7920356f357791674f39163c1b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\5b6bbcc1b5dc9d95c33e209f016d65e7\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.maps:android:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\6013b302eb8e2910286037aee3373ef0\transformed\android-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-annotation:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\715f4d89832895cf3a5168907fd89522\transformed\maps-annotation-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-localization:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\03b24f631147d709a69ad79ca8bf2215\transformed\maps-localization-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-style:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3307ea33332c9e4db00d6157f4a8bf6e\transformed\maps-style-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-logo:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\213e5445e88bc2834dc0d3a962dfdcac\transformed\maps-logo-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-compass:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c92c91b9213194a8731d8095252518ec\transformed\maps-compass-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-gestures:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e91a2dc23fdebf5bafcd8322bd2556b8\transformed\maps-gestures-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-attribution:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bda32485c544bad03879fff89b47ff73\transformed\maps-attribution-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-viewport:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\014026be98e67b1783a6a29c72c2d98a\transformed\maps-viewport-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f81672064f1fde5328fdc0106c48ccf4\transformed\maps-locationcomponent-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-scalebar:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d426f43d300b7c8c98863158f037a3ea\transformed\maps-scalebar-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-overlay:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\268f50d81cfdea4516144c82b51f0c53\transformed\maps-overlay-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\1d0b47c03215b3d8bf70d472eda6becc\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e93f5ca8f3e2ac5a1a0be883cdced25d\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bc19a0ea2c7145eb76ebd74b811dbeb9\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ce6e89a601e5e9e4facd0b1b389136e7\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\1cca11ca0684f5cf5683f2a7abe15896\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\924a92582a4adfe5f014250268d463a1\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d9830c980f59b6c219017a5f3dc0f07d\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c7593b8f22874e421abebbaaa44d35f4\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bd11189e34442c6e3196e08de51a76a1\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\819a78c928bf557090adc53c85091b2e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\9f4c56834fa2a3124e9f99df8044bb6f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\2e495ec563609e75ca7917debab136b7\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5c7c131481d3b8aba645e0113f9260e0\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3612d0f02421fbe7be4a8dd62fd21fee\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d77a6ea6f6eea7dcf967dfc24ef726fc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e1c6af9456944528058b99507c1a5792\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\b64255d60831990189527bbcc40b51ea\transformed\exoplayer-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\2d2e76e777dbfaf92d44d5104eae53bf\transformed\exoplayer-ui-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\cac96b9f255cc1ef36f548ccb22a423e\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\b54c748126a4854128ceacd504e05ef1\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7d837a277aef7e043f2893ac6aab3cc3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\5b5a1155964d13dd8c87dadf85c056bf\transformed\exoplayer-dash-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\56a8e2860733dffbbf506207579330be\transformed\exoplayer-hls-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\9e395a6f10cc8fefe662734c1a4a6c37\transformed\exoplayer-rtsp-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\a064bf253b314a4070b7accb44d97e79\transformed\exoplayer-smoothstreaming-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\c6ca0b23f9871a09301bc1c6be7a9b63\transformed\exoplayer-core-2.18.5\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bdba7becd8d68914425554891fdabf4b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.media:media:1.6.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c10211d9983f13ca61f506f117dbb91\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4aa464f624551391bc3cc02295dfc0d2\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:2:1-26:12
+MERGED from [com.mapbox.plugin:maps-animation:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a71d09ef9a8ddb7ae2d5df15ff7e5ef2\transformed\maps-animation-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\992f8913ff321890d68c90ea36b456f1\transformed\maps-lifecycle-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\841b3fb7dc639505bf79599eb0f71755\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.common:okhttp:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e9d374b8875d244f5998e3d6b91d5cd1\transformed\okhttp-23.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.module:maps-telemetry:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f53023af03f74d18edf67a0d8fc426a5\transformed\maps-telemetry-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:base:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d9c0749b8ac8eca94a20220e21da2563\transformed\base-10.15.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:2:1-40:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\b28574353bf2a865444b279d6667691f\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f351a8ca9a962d27d28ca630d86f7516\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\a864e8673b25d675ebb3613268111e83\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\58221f2e2532a91a8566c2271c06c56d\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8673d810f3f7e009f4e737167b818b5a\transformed\lifecycle-service-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7b6077fa3db74b29a28162044e8cb0b4\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1bdfcd552cdd92df39054e6c917f7ba7\transformed\lifecycle-viewmodel-2.8.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4b4c751e8cabaf13f0eb0f7d2118b273\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3048041124608c9d622bfaadb486da5e\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f6368b31fb805498ce6eaaa55fc54799\transformed\lifecycle-viewmodel-savedstate-2.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\34037c17e86eec7010eb3b2be8e81f4d\transformed\lifecycle-livedata-core-2.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f30a2b8456bb96f4efdcf5d33f2d7510\transformed\lifecycle-livedata-core-ktx-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5990b01fa0d512100b94d111bf9bc9da\transformed\lifecycle-livedata-2.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8b8d49c6cdec1a8e783db92aa2468b0d\transformed\lifecycle-viewmodel-ktx-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3969d7c605130166a71b7bb6b63d4455\transformed\lifecycle-livedata-ktx-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\78a8301f717242973546b2be20d5ae08\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3b74f00185da96ab5d5a4e2dd21b9619\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\4daa0f5efeff1dc8c070fec679600ab0\transformed\exoplayer-datasource-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\105e118fd631dfd894495d9aa92353c7\transformed\exoplayer-database-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\4c3644061addc7b9ade0615162c3ac32\transformed\exoplayer-extractor-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\67d4de956e7fbb39e8934d2076a627d6\transformed\exoplayer-decoder-2.18.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\17517a79fda283e4b7b832c9fba85ceb\transformed\exoplayer-common-2.18.5\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c2889c5ee7b7c2de1157c0c13cc4cb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c722f324fb9b9b09565246c0e2dae088\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d7b58c6782e5b7a655e72c0c24c4bd5c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\be2a4a8f3f960931c579cb2860250a23\transformed\logger-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\08692c9e825d151a4e45c467f4f35640\transformed\loader-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.base:common:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\35f2279b6f7e1c19874eb92f46605c35\transformed\common-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\0ba209f8440130f18fa04331c0c74ebb\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1493991552ccb94462c3e310d514746d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\eaaa533160f7ff746dcd236ce5ca4d3f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f48ac5b82785a68ce955fc6878bc2424\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\23fe4954d7aed2a41df2eb0fe960208a\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\93da5b46dea30f5f3b172dbcbcb73af5\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a137b20a9f2d83bb21c50571858be2e4\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\2ba2c38c087f84888dc3a96dcf4b1754\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a4a10f425b5d0f6ca3033b3cf29f7bb5\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\bb38b410c8408caf36dff714fc52f03f\transformed\androidsvg-aar-1.4\AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:14:5-67
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:6:5-81
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:10:5-81
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:9:22-76
+application
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:11:5-54:19
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:11:5-54:19
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:17:5-31:19
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:17:5-31:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7138cde3f4652d282c4b81a40a3f7460\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7138cde3f4652d282c4b81a40a3f7460\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\0f14ba7920356f357791674f39163c1b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\0f14ba7920356f357791674f39163c1b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bc19a0ea2c7145eb76ebd74b811dbeb9\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bc19a0ea2c7145eb76ebd74b811dbeb9\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ce6e89a601e5e9e4facd0b1b389136e7\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ce6e89a601e5e9e4facd0b1b389136e7\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:12:5-24:19
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:12:5-24:19
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:13:5-38:19
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:13:5-38:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c2889c5ee7b7c2de1157c0c13cc4cb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c2889c5ee7b7c2de1157c0c13cc4cb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+	android:extractNativeLibs
+		INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:14:9-54
+	android:roundIcon
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:18:9-54
+	tools:targetApi
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:21:9-29
+	android:icon
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:20:9-51
+	android:networkSecurityConfig
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:17:9-69
+	android:dataExtractionRules
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:13:9-65
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:34:9-36:32
+	android:value
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:36:13-29
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:35:13-58
+activity#com.example.followvehicle.MainActivity
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:38:9-42:70
+	android:label
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:41:13-45
+	android:exported
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:40:13-36
+	android:theme
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:42:13-67
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:39:13-41
+activity#com.example.followvehicle.ui.login.LoginActivity
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:43:9-53:20
+	android:label
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:46:13-45
+	android:exported
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:47:13-67
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:44:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:51:27-74
+uses-sdk
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+MERGED from [com.mapbox.navigation:android:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\54c0cf5b8ea98d9053c2f9b761435869\transformed\android-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:android:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\54c0cf5b8ea98d9053c2f9b761435869\transformed\android-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maneuver:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\36e170426c8d183013ca32c127729fec\transformed\ui-maneuver-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maneuver:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\36e170426c8d183013ca32c127729fec\transformed\ui-maneuver-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maps:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ffa7f917bce44f5dc54e0d188c9406de\transformed\ui-maps-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maps:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ffa7f917bce44f5dc54e0d188c9406de\transformed\ui-maps-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-shields:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\d1cf00b911f0654b70822ca6bd1ade65\transformed\ui-shields-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-shields:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\d1cf00b911f0654b70822ca6bd1ade65\transformed\ui-shields-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e6e9aca96343ade99fbd5aa70c89b8b\transformed\ui-speedlimit-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e6e9aca96343ade99fbd5aa70c89b8b\transformed\ui-speedlimit-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\7615f05acbaa6636b239086cd5d0f11b\transformed\ui-tripprogress-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\7615f05acbaa6636b239086cd5d0f11b\transformed\ui-tripprogress-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-voice:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\06fa6acc78f92fa056d731815912fdc9\transformed\ui-voice-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-voice:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\06fa6acc78f92fa056d731815912fdc9\transformed\ui-voice-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-status:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\f6bc55510726cef9f91d663188908ec6\transformed\ui-status-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-status:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\f6bc55510726cef9f91d663188908ec6\transformed\ui-status-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:copilot:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\3edc2271c22f796b8330d1954a16d48a\transformed\copilot-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:copilot:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\3edc2271c22f796b8330d1954a16d48a\transformed\copilot-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-base:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\0b8ffa1abb2faa065555a5917c8a9c97\transformed\ui-base-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-base:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\0b8ffa1abb2faa065555a5917c8a9c97\transformed\ui-base-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigation:router:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e0d4eef12a8fe3c16e00428027441510\transformed\router-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:router:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e0d4eef12a8fe3c16e00428027441510\transformed\router-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:notification:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\693b41581e6b800aa15ed2be9894ca9a\transformed\notification-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:notification:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\693b41581e6b800aa15ed2be9894ca9a\transformed\notification-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:navigator:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\cb4592495b337c142cc5db8c27dcc110\transformed\navigator-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:navigator:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\cb4592495b337c142cc5db8c27dcc110\transformed\navigator-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:metrics:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e72f2ed06c32d0e855d0931cb77a69e\transformed\metrics-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:metrics:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e72f2ed06c32d0e855d0931cb77a69e\transformed\metrics-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:base:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\316eb2da1f33fa5deb6528d098c7d18e\transformed\base-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:base:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\316eb2da1f33fa5deb6528d098c7d18e\transformed\base-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\36a75003a26e9c7445f9dfd04d49978b\transformed\ui-utils-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\36a75003a26e9c7445f9dfd04d49978b\transformed\ui-utils-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\b7e296cdd66eb4a11ec407fb22abeec6\transformed\utils-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\b7e296cdd66eb4a11ec407fb22abeec6\transformed\utils-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-resources:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\16e13f99fad2ba0b45fa01653656634d\transformed\ui-resources-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-resources:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\16e13f99fad2ba0b45fa01653656634d\transformed\ui-resources-2.15.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:8.4.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bf06d52320503d774f1428a2c8b1b6e7\transformed\viewbinding-8.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.4.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bf06d52320503d774f1428a2c8b1b6e7\transformed\viewbinding-8.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\554aa86056191cbb5192be57e4d37e9d\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\554aa86056191cbb5192be57e4d37e9d\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\30c46f01ef4e414873e9059a8b09b5fd\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\30c46f01ef4e414873e9059a8b09b5fd\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\15989918d0dad22f4ac1cb6ed9f3e0f2\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\15989918d0dad22f4ac1cb6ed9f3e0f2\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\4ce6a391cfc281c321926be5e167cc77\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\VIETTHI\.gradle\caches\transforms-4\4ce6a391cfc281c321926be5e167cc77\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7138cde3f4652d282c4b81a40a3f7460\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7138cde3f4652d282c4b81a40a3f7460\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\0f14ba7920356f357791674f39163c1b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\0f14ba7920356f357791674f39163c1b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\5b6bbcc1b5dc9d95c33e209f016d65e7\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\5b6bbcc1b5dc9d95c33e209f016d65e7\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.maps:android:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\6013b302eb8e2910286037aee3373ef0\transformed\android-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\6013b302eb8e2910286037aee3373ef0\transformed\android-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\715f4d89832895cf3a5168907fd89522\transformed\maps-annotation-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\715f4d89832895cf3a5168907fd89522\transformed\maps-annotation-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\03b24f631147d709a69ad79ca8bf2215\transformed\maps-localization-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\03b24f631147d709a69ad79ca8bf2215\transformed\maps-localization-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3307ea33332c9e4db00d6157f4a8bf6e\transformed\maps-style-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3307ea33332c9e4db00d6157f4a8bf6e\transformed\maps-style-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\213e5445e88bc2834dc0d3a962dfdcac\transformed\maps-logo-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\213e5445e88bc2834dc0d3a962dfdcac\transformed\maps-logo-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c92c91b9213194a8731d8095252518ec\transformed\maps-compass-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c92c91b9213194a8731d8095252518ec\transformed\maps-compass-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e91a2dc23fdebf5bafcd8322bd2556b8\transformed\maps-gestures-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e91a2dc23fdebf5bafcd8322bd2556b8\transformed\maps-gestures-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bda32485c544bad03879fff89b47ff73\transformed\maps-attribution-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bda32485c544bad03879fff89b47ff73\transformed\maps-attribution-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\014026be98e67b1783a6a29c72c2d98a\transformed\maps-viewport-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\014026be98e67b1783a6a29c72c2d98a\transformed\maps-viewport-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f81672064f1fde5328fdc0106c48ccf4\transformed\maps-locationcomponent-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f81672064f1fde5328fdc0106c48ccf4\transformed\maps-locationcomponent-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d426f43d300b7c8c98863158f037a3ea\transformed\maps-scalebar-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d426f43d300b7c8c98863158f037a3ea\transformed\maps-scalebar-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\268f50d81cfdea4516144c82b51f0c53\transformed\maps-overlay-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\268f50d81cfdea4516144c82b51f0c53\transformed\maps-overlay-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\1d0b47c03215b3d8bf70d472eda6becc\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\1d0b47c03215b3d8bf70d472eda6becc\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e93f5ca8f3e2ac5a1a0be883cdced25d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e93f5ca8f3e2ac5a1a0be883cdced25d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bc19a0ea2c7145eb76ebd74b811dbeb9\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\bc19a0ea2c7145eb76ebd74b811dbeb9\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ce6e89a601e5e9e4facd0b1b389136e7\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\ce6e89a601e5e9e4facd0b1b389136e7\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\1cca11ca0684f5cf5683f2a7abe15896\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\1cca11ca0684f5cf5683f2a7abe15896\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\924a92582a4adfe5f014250268d463a1\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\924a92582a4adfe5f014250268d463a1\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d9830c980f59b6c219017a5f3dc0f07d\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d9830c980f59b6c219017a5f3dc0f07d\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c7593b8f22874e421abebbaaa44d35f4\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c7593b8f22874e421abebbaaa44d35f4\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bd11189e34442c6e3196e08de51a76a1\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bd11189e34442c6e3196e08de51a76a1\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\819a78c928bf557090adc53c85091b2e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\819a78c928bf557090adc53c85091b2e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\9f4c56834fa2a3124e9f99df8044bb6f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\9f4c56834fa2a3124e9f99df8044bb6f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\2e495ec563609e75ca7917debab136b7\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\2e495ec563609e75ca7917debab136b7\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5c7c131481d3b8aba645e0113f9260e0\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5c7c131481d3b8aba645e0113f9260e0\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3612d0f02421fbe7be4a8dd62fd21fee\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3612d0f02421fbe7be4a8dd62fd21fee\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d77a6ea6f6eea7dcf967dfc24ef726fc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d77a6ea6f6eea7dcf967dfc24ef726fc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e1c6af9456944528058b99507c1a5792\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e1c6af9456944528058b99507c1a5792\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\b64255d60831990189527bbcc40b51ea\transformed\exoplayer-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\b64255d60831990189527bbcc40b51ea\transformed\exoplayer-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\2d2e76e777dbfaf92d44d5104eae53bf\transformed\exoplayer-ui-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\2d2e76e777dbfaf92d44d5104eae53bf\transformed\exoplayer-ui-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\cac96b9f255cc1ef36f548ccb22a423e\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\cac96b9f255cc1ef36f548ccb22a423e\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\b54c748126a4854128ceacd504e05ef1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\b54c748126a4854128ceacd504e05ef1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7d837a277aef7e043f2893ac6aab3cc3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7d837a277aef7e043f2893ac6aab3cc3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\5b5a1155964d13dd8c87dadf85c056bf\transformed\exoplayer-dash-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\5b5a1155964d13dd8c87dadf85c056bf\transformed\exoplayer-dash-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\56a8e2860733dffbbf506207579330be\transformed\exoplayer-hls-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\56a8e2860733dffbbf506207579330be\transformed\exoplayer-hls-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\9e395a6f10cc8fefe662734c1a4a6c37\transformed\exoplayer-rtsp-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\9e395a6f10cc8fefe662734c1a4a6c37\transformed\exoplayer-rtsp-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\a064bf253b314a4070b7accb44d97e79\transformed\exoplayer-smoothstreaming-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\a064bf253b314a4070b7accb44d97e79\transformed\exoplayer-smoothstreaming-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\c6ca0b23f9871a09301bc1c6be7a9b63\transformed\exoplayer-core-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\c6ca0b23f9871a09301bc1c6be7a9b63\transformed\exoplayer-core-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bdba7becd8d68914425554891fdabf4b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\bdba7becd8d68914425554891fdabf4b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c10211d9983f13ca61f506f117dbb91\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c10211d9983f13ca61f506f117dbb91\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4aa464f624551391bc3cc02295dfc0d2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4aa464f624551391bc3cc02295dfc0d2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.plugin:maps-animation:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a71d09ef9a8ddb7ae2d5df15ff7e5ef2\transformed\maps-animation-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a71d09ef9a8ddb7ae2d5df15ff7e5ef2\transformed\maps-animation-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\992f8913ff321890d68c90ea36b456f1\transformed\maps-lifecycle-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\992f8913ff321890d68c90ea36b456f1\transformed\maps-lifecycle-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\841b3fb7dc639505bf79599eb0f71755\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\841b3fb7dc639505bf79599eb0f71755\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.common:okhttp:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e9d374b8875d244f5998e3d6b91d5cd1\transformed\okhttp-23.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e9d374b8875d244f5998e3d6b91d5cd1\transformed\okhttp-23.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f53023af03f74d18edf67a0d8fc426a5\transformed\maps-telemetry-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f53023af03f74d18edf67a0d8fc426a5\transformed\maps-telemetry-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d9c0749b8ac8eca94a20220e21da2563\transformed\base-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d9c0749b8ac8eca94a20220e21da2563\transformed\base-10.15.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\b28574353bf2a865444b279d6667691f\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\b28574353bf2a865444b279d6667691f\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f351a8ca9a962d27d28ca630d86f7516\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f351a8ca9a962d27d28ca630d86f7516\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\a864e8673b25d675ebb3613268111e83\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\a864e8673b25d675ebb3613268111e83\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\58221f2e2532a91a8566c2271c06c56d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\58221f2e2532a91a8566c2271c06c56d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8673d810f3f7e009f4e737167b818b5a\transformed\lifecycle-service-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8673d810f3f7e009f4e737167b818b5a\transformed\lifecycle-service-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7b6077fa3db74b29a28162044e8cb0b4\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7b6077fa3db74b29a28162044e8cb0b4\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1bdfcd552cdd92df39054e6c917f7ba7\transformed\lifecycle-viewmodel-2.8.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1bdfcd552cdd92df39054e6c917f7ba7\transformed\lifecycle-viewmodel-2.8.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4b4c751e8cabaf13f0eb0f7d2118b273\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4b4c751e8cabaf13f0eb0f7d2118b273\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3048041124608c9d622bfaadb486da5e\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3048041124608c9d622bfaadb486da5e\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f6368b31fb805498ce6eaaa55fc54799\transformed\lifecycle-viewmodel-savedstate-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f6368b31fb805498ce6eaaa55fc54799\transformed\lifecycle-viewmodel-savedstate-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\34037c17e86eec7010eb3b2be8e81f4d\transformed\lifecycle-livedata-core-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\34037c17e86eec7010eb3b2be8e81f4d\transformed\lifecycle-livedata-core-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f30a2b8456bb96f4efdcf5d33f2d7510\transformed\lifecycle-livedata-core-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f30a2b8456bb96f4efdcf5d33f2d7510\transformed\lifecycle-livedata-core-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5990b01fa0d512100b94d111bf9bc9da\transformed\lifecycle-livedata-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5990b01fa0d512100b94d111bf9bc9da\transformed\lifecycle-livedata-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8b8d49c6cdec1a8e783db92aa2468b0d\transformed\lifecycle-viewmodel-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8b8d49c6cdec1a8e783db92aa2468b0d\transformed\lifecycle-viewmodel-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3969d7c605130166a71b7bb6b63d4455\transformed\lifecycle-livedata-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3969d7c605130166a71b7bb6b63d4455\transformed\lifecycle-livedata-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\78a8301f717242973546b2be20d5ae08\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\78a8301f717242973546b2be20d5ae08\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3b74f00185da96ab5d5a4e2dd21b9619\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\3b74f00185da96ab5d5a4e2dd21b9619\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\4daa0f5efeff1dc8c070fec679600ab0\transformed\exoplayer-datasource-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\4daa0f5efeff1dc8c070fec679600ab0\transformed\exoplayer-datasource-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\105e118fd631dfd894495d9aa92353c7\transformed\exoplayer-database-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\105e118fd631dfd894495d9aa92353c7\transformed\exoplayer-database-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\4c3644061addc7b9ade0615162c3ac32\transformed\exoplayer-extractor-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\4c3644061addc7b9ade0615162c3ac32\transformed\exoplayer-extractor-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\67d4de956e7fbb39e8934d2076a627d6\transformed\exoplayer-decoder-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\67d4de956e7fbb39e8934d2076a627d6\transformed\exoplayer-decoder-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\17517a79fda283e4b7b832c9fba85ceb\transformed\exoplayer-common-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\17517a79fda283e4b7b832c9fba85ceb\transformed\exoplayer-common-2.18.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c2889c5ee7b7c2de1157c0c13cc4cb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\0c2889c5ee7b7c2de1157c0c13cc4cb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c722f324fb9b9b09565246c0e2dae088\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\c722f324fb9b9b09565246c0e2dae088\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d7b58c6782e5b7a655e72c0c24c4bd5c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d7b58c6782e5b7a655e72c0c24c4bd5c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\be2a4a8f3f960931c579cb2860250a23\transformed\logger-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\be2a4a8f3f960931c579cb2860250a23\transformed\logger-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\08692c9e825d151a4e45c467f4f35640\transformed\loader-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\08692c9e825d151a4e45c467f4f35640\transformed\loader-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\35f2279b6f7e1c19874eb92f46605c35\transformed\common-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\35f2279b6f7e1c19874eb92f46605c35\transformed\common-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\0ba209f8440130f18fa04331c0c74ebb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\0ba209f8440130f18fa04331c0c74ebb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1493991552ccb94462c3e310d514746d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1493991552ccb94462c3e310d514746d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\eaaa533160f7ff746dcd236ce5ca4d3f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\eaaa533160f7ff746dcd236ce5ca4d3f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f48ac5b82785a68ce955fc6878bc2424\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\f48ac5b82785a68ce955fc6878bc2424\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\23fe4954d7aed2a41df2eb0fe960208a\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\23fe4954d7aed2a41df2eb0fe960208a\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\93da5b46dea30f5f3b172dbcbcb73af5\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\93da5b46dea30f5f3b172dbcbcb73af5\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a137b20a9f2d83bb21c50571858be2e4\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a137b20a9f2d83bb21c50571858be2e4\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\2ba2c38c087f84888dc3a96dcf4b1754\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\2ba2c38c087f84888dc3a96dcf4b1754\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a4a10f425b5d0f6ca3033b3cf29f7bb5\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\a4a10f425b5d0f6ca3033b3cf29f7bb5\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\bb38b410c8408caf36dff714fc52f03f\transformed\androidsvg-aar-1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\VIETTHI\.gradle\caches\transforms-4\bb38b410c8408caf36dff714fc52f03f\transformed\androidsvg-aar-1.4\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:12:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:15:5-79
+MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\b7e296cdd66eb4a11ec407fb22abeec6\transformed\utils-2.15.2\AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.navigation:utils:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\b7e296cdd66eb4a11ec407fb22abeec6\transformed\utils-2.15.2\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\c6ca0b23f9871a09301bc1c6be7a9b63\transformed\exoplayer-core-2.18.5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\c6ca0b23f9871a09301bc1c6be7a9b63\transformed\exoplayer-core-2.18.5\AndroidManifest.xml:24:5-79
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:11:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\17517a79fda283e4b7b832c9fba85ceb\transformed\exoplayer-common-2.18.5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\17517a79fda283e4b7b832c9fba85ceb\transformed\exoplayer-common-2.18.5\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:15:22-76
+provider#androidx.startup.InitializationProvider
+ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:18:9-26:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:14:9-24:20
+MERGED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:14:9-24:20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\568cb480dc39cb9cdb0f7f672dc15f0c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:22:13-31
+	android:authorities
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:20:13-68
+	android:exported
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:19:13-67
+meta-data#com.mapbox.navigation.core.internal.MapboxNavigationSDKInitializer
+ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:23:13-25:52
+	android:value
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:25:17-49
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:24:17-98
+service#com.mapbox.navigation.core.trip.service.NavigationNotificationService
+ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:28:9-30:56
+	android:foregroundServiceType
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:30:13-53
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:29:13-97
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:10:5-12:35
+MERGED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:10:5-12:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5646e6cd98298786c94c104cc93c3398\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:10:22-76
+meta-data#com.mapbox.navigator.MapboxNavigationNativeInitializer
+ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:20:13-22:52
+	android:value
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:22:17-49
+	android:name
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:148.0.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\92879488df0efb5143304fdbb2b8b106\transformed\mapbox-navigation-native-148.0.2\AndroidManifest.xml:21:17-86
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:14:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:19:22-73
+meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
+ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:27:13-29:52
+	android:value
+		ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:29:17-49
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.15.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\4e5bdfbd6c649d36fed76e2270d7185c\transformed\android-core-10.15.0\AndroidManifest.xml:28:17-76
+meta-data#com.mapbox.common.MapboxSDKCommonInitializer
+ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:21:13-23:52
+	android:value
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:23:17-49
+	android:name
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:22:17-76
+receiver#com.mapbox.common.location.LocationUpdatesReceiver
+ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:26:9-33:20
+	android:enabled
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:28:13-35
+	android:exported
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:27:13-78
+intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:30:13-32:29
+action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:31:17-125
+	android:name
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:31:25-122
+service#com.mapbox.common.LifecycleService
+ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:23.7.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\1c223095299d07d105baaac7dd61b739\transformed\common-23.7.0\AndroidManifest.xml:36:13-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\af21d6995fee1e94ed298559a8f6e939\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.followvehicle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.followvehicle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\7565fb72e3440e2fd2a6c076cd08d45f\transformed\lifecycle-process-2.8.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\aeb31ba4cb76357ed6b30b25ed523fd7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\VIETTHI\.gradle\caches\transforms-4\eb8168cad6c34746c5f3722720f7e66e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74

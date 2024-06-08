@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.followvehicle.app-mergeDebugResources-74:/values-yo/values-yo.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\b7e296cdd66eb4a11ec407fb22abeec6\\transformed\\utils-2.15.2\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,180,234,283",
+                        "endColumns": "79,53,48,48",
+                        "endOffsets": "175,229,278,327"
+                    },
+                    "to": {
+                        "startLines": "9,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "516,674,728,777",
+                        "endColumns": "79,53,48,48",
+                        "endOffsets": "591,723,772,821"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\316eb2da1f33fa5deb6528d098c7d18e\\transformed\\base-2.15.2\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,232,296,381,459",
+                        "endLines": "4,5,6,7,8",
+                        "endColumns": "14,63,84,77,79",
+                        "endOffsets": "227,291,376,454,534"
+                    },
+                    "to": {
+                        "startLines": "2,5,6,10,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,232,296,596,826",
+                        "endLines": "4,5,6,10,14",
+                        "endColumns": "14,63,84,77,79",
+                        "endOffsets": "227,291,376,669,901"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\ffa7f917bce44f5dc54e0d188c9406de\\transformed\\ui-maps-2.15.2\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "87",
+                        "endOffsets": "183"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "428",
+                        "endColumns": "87",
+                        "endOffsets": "511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\06fa6acc78f92fa056d731815912fdc9\\transformed\\ui-voice-2.15.2\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,102",
+                        "endColumns": "46,50",
+                        "endOffsets": "97,148"
+                    },
+                    "to": {
+                        "startLines": "7,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "381,906",
+                        "endColumns": "46,50",
+                        "endOffsets": "423,952"
+                    }
+                }
+            ]
+        }
+    ]
+}
