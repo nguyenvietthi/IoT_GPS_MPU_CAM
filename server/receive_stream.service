@@ -1,0 +1,13 @@
+[Unit]
+Description="receive_stream"
+
+[Service]
+User=root
+WorkingDirectory=/workspace/server
+ExecStart=python3 /workspace/server/receive_stream.py
+# optional items below
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

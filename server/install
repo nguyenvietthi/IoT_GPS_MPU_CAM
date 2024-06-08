@@ -1,0 +1,23 @@
+apt update
+
+apt install python3-pip
+
+sudo apt-get update && sudo apt-get install nginx
+sudo ufw allow 'Nginx Full'
+
+pip install -r requirements
+apt install firewalld
+
+firewall-cmd --add-port=1234/tcp
+firewall-cmd --add-port=12345/tcp
+
+cp -r receive_stream.service /etc/systemd/system/
+
+systemctl start receive_stream.service
+systemctl enable receive_stream.service
+
+cp -r iot_center.service /etc/systemd/system/
+
+systemctl start iot_center.service
+systemctl enable iot_center.service
+
