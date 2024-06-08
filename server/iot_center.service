@@ -3,8 +3,8 @@ Description="IoT_GPS_MPU_CAM"
 
 [Service]
 User=root
-WorkingDirectory=IoT_GPS_MPU_CAM/server
-ExecStart=gunicorn --workers 2 --threads 20 --bind 0.0.0.0:1234 --chdir IoT_GPS_MPU_CAM/server --log-level=debug wsgi:app
+WorkingDirectory=/IoT_GPS_MPU_CAM/server
+ExecStart=gunicorn --workers 2 --threads 20 --bind 0.0.0.0:1234 --chdir /IoT_GPS_MPU_CAM/server --log-level=debug wsgi:app
 # optional items below
 Restart=always
 RestartSec=3

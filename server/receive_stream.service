@@ -3,8 +3,8 @@ Description="receive_stream"
 
 [Service]
 User=root
-WorkingDirectory=IoT_GPS_MPU_CAM/server
-ExecStart=python3 IoT_GPS_MPU_CAM/server/receive_stream.py
+WorkingDirectory=/IoT_GPS_MPU_CAM/server
+ExecStart=python3 /IoT_GPS_MPU_CAM/server/receive_stream.py
 # optional items below
 Restart=always
 RestartSec=3
