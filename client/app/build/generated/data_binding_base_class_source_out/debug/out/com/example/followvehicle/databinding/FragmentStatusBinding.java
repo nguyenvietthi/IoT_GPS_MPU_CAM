@@ -5,19 +5,87 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.followvehicle.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentStatusBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private FragmentStatusBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final TextView accxLabel;
+
+  @NonNull
+  public final TextView accxValue;
+
+  @NonNull
+  public final TextView accyLabel;
+
+  @NonNull
+  public final TextView accyValue;
+
+  @NonNull
+  public final TextView acczLabel;
+
+  @NonNull
+  public final TextView acczValue;
+
+  @NonNull
+  public final TextView gyroxLabel;
+
+  @NonNull
+  public final TextView gyroxValue;
+
+  @NonNull
+  public final TextView gyroyLabel;
+
+  @NonNull
+  public final TextView gyroyValue;
+
+  @NonNull
+  public final TextView gyrozLabel;
+
+  @NonNull
+  public final TextView gyrozValue;
+
+  @NonNull
+  public final TextView statusLabel;
+
+  @NonNull
+  public final TextView temperature;
+
+  @NonNull
+  public final TextView temperatureValue;
+
+  private FragmentStatusBinding(@NonNull LinearLayout rootView, @NonNull TextView accxLabel,
+      @NonNull TextView accxValue, @NonNull TextView accyLabel, @NonNull TextView accyValue,
+      @NonNull TextView acczLabel, @NonNull TextView acczValue, @NonNull TextView gyroxLabel,
+      @NonNull TextView gyroxValue, @NonNull TextView gyroyLabel, @NonNull TextView gyroyValue,
+      @NonNull TextView gyrozLabel, @NonNull TextView gyrozValue, @NonNull TextView statusLabel,
+      @NonNull TextView temperature, @NonNull TextView temperatureValue) {
     this.rootView = rootView;
+    this.accxLabel = accxLabel;
+    this.accxValue = accxValue;
+    this.accyLabel = accyLabel;
+    this.accyValue = accyValue;
+    this.acczLabel = acczLabel;
+    this.acczValue = acczValue;
+    this.gyroxLabel = gyroxLabel;
+    this.gyroxValue = gyroxValue;
+    this.gyroyLabel = gyroyLabel;
+    this.gyroyValue = gyroyValue;
+    this.gyrozLabel = gyrozLabel;
+    this.gyrozValue = gyrozValue;
+    this.statusLabel = statusLabel;
+    this.temperature = temperature;
+    this.temperatureValue = temperatureValue;
   }
 
   @Override
@@ -43,10 +111,105 @@ public final class FragmentStatusBinding implements ViewBinding {
 
   @NonNull
   public static FragmentStatusBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.accxLabel;
+      TextView accxLabel = ViewBindings.findChildViewById(rootView, id);
+      if (accxLabel == null) {
+        break missingId;
+      }
 
-    return new FragmentStatusBinding((LinearLayout) rootView);
+      id = R.id.accxValue;
+      TextView accxValue = ViewBindings.findChildViewById(rootView, id);
+      if (accxValue == null) {
+        break missingId;
+      }
+
+      id = R.id.accyLabel;
+      TextView accyLabel = ViewBindings.findChildViewById(rootView, id);
+      if (accyLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.accyValue;
+      TextView accyValue = ViewBindings.findChildViewById(rootView, id);
+      if (accyValue == null) {
+        break missingId;
+      }
+
+      id = R.id.acczLabel;
+      TextView acczLabel = ViewBindings.findChildViewById(rootView, id);
+      if (acczLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.acczValue;
+      TextView acczValue = ViewBindings.findChildViewById(rootView, id);
+      if (acczValue == null) {
+        break missingId;
+      }
+
+      id = R.id.gyroxLabel;
+      TextView gyroxLabel = ViewBindings.findChildViewById(rootView, id);
+      if (gyroxLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.gyroxValue;
+      TextView gyroxValue = ViewBindings.findChildViewById(rootView, id);
+      if (gyroxValue == null) {
+        break missingId;
+      }
+
+      id = R.id.gyroyLabel;
+      TextView gyroyLabel = ViewBindings.findChildViewById(rootView, id);
+      if (gyroyLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.gyroyValue;
+      TextView gyroyValue = ViewBindings.findChildViewById(rootView, id);
+      if (gyroyValue == null) {
+        break missingId;
+      }
+
+      id = R.id.gyrozLabel;
+      TextView gyrozLabel = ViewBindings.findChildViewById(rootView, id);
+      if (gyrozLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.gyrozValue;
+      TextView gyrozValue = ViewBindings.findChildViewById(rootView, id);
+      if (gyrozValue == null) {
+        break missingId;
+      }
+
+      id = R.id.statusLabel;
+      TextView statusLabel = ViewBindings.findChildViewById(rootView, id);
+      if (statusLabel == null) {
+        break missingId;
+      }
+
+      id = R.id.temperature;
+      TextView temperature = ViewBindings.findChildViewById(rootView, id);
+      if (temperature == null) {
+        break missingId;
+      }
+
+      id = R.id.temperatureValue;
+      TextView temperatureValue = ViewBindings.findChildViewById(rootView, id);
+      if (temperatureValue == null) {
+        break missingId;
+      }
+
+      return new FragmentStatusBinding((LinearLayout) rootView, accxLabel, accxValue, accyLabel,
+          accyValue, acczLabel, acczValue, gyroxLabel, gyroxValue, gyroyLabel, gyroyValue,
+          gyrozLabel, gyrozValue, statusLabel, temperature, temperatureValue);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

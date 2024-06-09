@@ -3939,6 +3939,12 @@ int id accessibility_custom_action_7 0x7f0a002e
 int id accessibility_custom_action_8 0x7f0a002f
 int id accessibility_custom_action_9 0x7f0a0030
 int id account_name 0x7f0a0031
+int id accxLabel 0x7f0a02b1
+int id accxValue 0x7f0a02b2
+int id accyLabel 0x7f0a02b3
+int id accyValue 0x7f0a02b4
+int id acczLabel 0x7f0a02b5
+int id acczValue 0x7f0a02b6
 int id action0 0x7f0a0032
 int id actionDown 0x7f0a0033
 int id actionDownUp 0x7f0a0034
@@ -4187,6 +4193,12 @@ int id graph_wrap 0x7f0a0126
 int id group_divider 0x7f0a0127
 int id grouping 0x7f0a0128
 int id groups 0x7f0a0129
+int id gyroxLabel 0x7f0a02b7
+int id gyroxValue 0x7f0a02b8
+int id gyroyLabel 0x7f0a02b9
+int id gyroyValue 0x7f0a02ba
+int id gyrozLabel 0x7f0a02bb
+int id gyrozValue 0x7f0a02bc
 int id header_title 0x7f0a012a
 int id heading 0x7f0a012b
 int id height_only 0x7f0a012c
@@ -4473,6 +4485,7 @@ int id startToEnd 0x7f0a0244
 int id startVertical 0x7f0a0245
 int id staticLayout 0x7f0a0246
 int id staticPostLayout 0x7f0a0247
+int id statusLabel 0x7f0a02bd
 int id status_bar_latest_event_content 0x7f0a0248
 int id stepDistance 0x7f0a0249
 int id stop 0x7f0a024a
@@ -4499,6 +4512,8 @@ int id tag_transition_group 0x7f0a025e
 int id tag_unhandled_key_event_manager 0x7f0a025f
 int id tag_unhandled_key_listeners 0x7f0a0260
 int id tag_window_insets_animation_callback 0x7f0a0261
+int id temperature 0x7f0a02be
+int id temperatureValue 0x7f0a02bf
 int id terrain 0x7f0a0262
 int id text 0x7f0a0263
 int id text2 0x7f0a0264

@@ -39,6 +39,12 @@ drawable side_nav_bar
 drawable specialdot
 id CurrentLocationMap
 id account_name
+id accxLabel
+id accxValue
+id accyLabel
+id accyValue
+id acczLabel
+id acczValue
 id action_settings
 id add_vehicle
 id app_bar_main
@@ -51,6 +57,12 @@ id dateTimeEditText2
 id drawer_layout
 id email
 id fragment_container
+id gyroxLabel
+id gyroxValue
+id gyroyLabel
+id gyroyValue
+id gyrozLabel
+id gyrozValue
 id imageView
 id line1
 id line2
@@ -69,6 +81,9 @@ id nav_view
 id password
 id progressshape
 id seekBarTime
+id statusLabel
+id temperature
+id temperatureValue
 id textView
 id text_gallery
 id text_home

@@ -7,9 +7,26 @@ from flask_cors import CORS
 import secrets
 import sqlite3
 
+
+
 from io import BytesIO
 from PIL import Image
 from base64 import b64encode
+
+from datetime import datetime, timedelta, timezone
+gmt_plus_7 = timezone(timedelta(hours=7))
+
+
+def get_current_time():
+    current_time_gmt_plus_7 = datetime.now(gmt_plus_7)
+    formatted_time_gmt_plus_7 = current_time_gmt_plus_7.strftime('%Y-%m-%d %H:%M:%S')
+    return formatted_time_gmt_plus_7
+
+def check_status(given_time_str):
+    current_time_gmt_plus_7 = datetime.now(gmt_plus_7)
+    given_time = datetime.strptime(given_time_str, '%Y-%m-%d %H:%M:%S')
+    given_time = given_time.replace(tzinfo=gmt_plus_7)
+    return (current_time_gmt_plus_7 - given_time).total_seconds() < 10
 
 def get_db_connection():
     conn = sqlite3.connect('instance/database.db')
@@ -21,10 +38,19 @@ def insert_user(email, password, cookie):
         conn.execute('INSERT INTO account (email, password, cookie) VALUES (?, ?, ?)', (email, password, cookie))
         conn.commit()
 
-def update_location(api_key, lat, lng, speed, sat, alt, date, time):
+def update_location(api_key, lat, lng, speed, sat, alt):
     with get_db_connection() as conn:
-        conn.execute('INSERT INTO gps (device_id, lat, lng, speed, sat, alt, datetime) VALUES (?, ?, ?, ?, ?, ?, ?)', (api_key, lat, lng, speed, sat, alt, date + " " + time))
+        conn.execute('INSERT INTO gps (device_id, lat, lng, speed, sat, alt, datetime) VALUES (?, ?, ?, ?, ?, ?, ?)', (api_key, lat, lng, speed, sat, alt, get_current_time()))
         conn.commit()
+
+def update_mpu(api_key, accx, accy, accz, gyrox, gyroy, gyroz, temperature):
+    with get_db_connection() as conn:
+        try:
+            conn.execute('INSERT INTO mpu (device_id, accx, accy, accz, gyrox, gyroy, gyroz, temperature, datetime) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', (api_key, accx, accy, accz, gyrox, gyroy, gyroz, temperature, get_current_time()))
+            conn.commit()
+        except:
+            conn.execute('UPDATE mpu SET accx = ? , accy = ?, accz = ?, gyrox = ?, gyroy = ?, gyroz = ?, temperature = ?, datetime = ? WHERE device_id = ?', (accx, accy, accz, gyrox, gyroy, gyroz, temperature, get_current_time(), api_key))
+            conn.commit()
         
 def update_cookie(email, cookie):
     with get_db_connection() as conn:
@@ -90,6 +116,19 @@ def get_location_list(email, cookie, start_time, finish_time, device_id):
         cursor.execute(query, (start_time, finish_time, device_id, ))
         row = cursor.fetchall()
         return row
+    
+def get_mpu_info(email, cookie, device_id):
+    with get_db_connection() as conn:
+        cursor = conn.cursor()
+
+        query = '''
+        SELECT *
+        FROM mpu
+        WHERE device_id = ?
+        '''
+        cursor.execute(query, (device_id, ))
+        row = cursor.fetchone()
+        return row
 
 
 app = Flask(__name__)
@@ -123,13 +162,13 @@ def get_gps_data():
     date = info_json["date"]
     time = info_json["time"]
     if(float(lat) != 0 and float(lng) != 0):
-        update_location(api_key, lat, lng, speed, sat, alt, date, time)
+        update_location(api_key, lat, lng, speed, sat, alt)
     response_body = {"message": "OK"}
     response = make_response(jsonify(response_body), 200)
     return response
 
 @app.route('/update-mpu', methods = ['POST', "GET"])
-def get_mcu_data():
+def get_mpu_data():
     info_json = request.get_json()
     # print(info_json)
 # var msg0 = { payload: msg.payload.api_key };
@@ -151,7 +190,30 @@ def get_mcu_data():
     gyroz = info_json["gyroz"]
     temperature = info_json["temperature"]
 
+    update_mpu(api_key, accx, accy, accz, gyrox, gyroy, gyroz, temperature)
+
     response_body = {"message": "OK"}
+    response = make_response(jsonify(response_body), 200)
+    return response
+
+@app.route('/get_current_mpu', methods=['POST'])
+def get_current_mpu():
+    email = request.json.get('email')
+    cookie = request.json.get('cookie')
+    device_id = request.json.get('device_id')
+    device_id = "tPmAT5Ab3j7F9"
+
+    data = get_mpu_info(cookie=cookie, email=email, device_id=device_id) 
+    db_time = data[8]
+
+    if(check_status(db_time)):
+
+        response_body = {"message": "OK", "accx" : data[1], "accy" : data[2], "accz" : data[3], "gyrox" : data[4], "gyroy" : data[5], "gyroz" : data[6], "temperature" : data[7]}
+    else:
+        response_body = {"message": "FAIL", "accx" : data[1], "accy" : data[2], "accz" : data[3], "gyrox" : data[4], "gyroy" : data[5], "gyroz" : data[6], "temperature" : data[7]}
+
+    print(response_body)
+
     response = make_response(jsonify(response_body), 200)
     return response
 

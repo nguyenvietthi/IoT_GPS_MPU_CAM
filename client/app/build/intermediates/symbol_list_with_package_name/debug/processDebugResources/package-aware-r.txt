@@ -3940,6 +3940,12 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id account_name
+id accxLabel
+id accxValue
+id accyLabel
+id accyValue
+id acczLabel
+id acczValue
 id action0
 id actionDown
 id actionDownUp
@@ -4188,6 +4194,12 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id gyroxLabel
+id gyroxValue
+id gyroyLabel
+id gyroyValue
+id gyrozLabel
+id gyrozValue
 id header_title
 id heading
 id height_only
@@ -4474,6 +4486,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusLabel
 id status_bar_latest_event_content
 id stepDistance
 id stop
@@ -4500,6 +4513,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id temperature
+id temperatureValue
 id terrain
 id text
 id text2
