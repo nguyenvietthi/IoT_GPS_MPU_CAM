@@ -24,13 +24,13 @@ public final class FragmentSlideshowBinding implements ViewBinding {
   public final MapView mapView;
 
   @NonNull
-  public final SeekBar seekBar;
+  public final SeekBar seekBarTime;
 
   private FragmentSlideshowBinding(@NonNull ConstraintLayout rootView, @NonNull MapView mapView,
-      @NonNull SeekBar seekBar) {
+      @NonNull SeekBar seekBarTime) {
     this.rootView = rootView;
     this.mapView = mapView;
-    this.seekBar = seekBar;
+    this.seekBarTime = seekBarTime;
   }
 
   @Override
@@ -66,13 +66,13 @@ public final class FragmentSlideshowBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.seekBar;
-      SeekBar seekBar = ViewBindings.findChildViewById(rootView, id);
-      if (seekBar == null) {
+      id = R.id.seekBarTime;
+      SeekBar seekBarTime = ViewBindings.findChildViewById(rootView, id);
+      if (seekBarTime == null) {
         break missingId;
       }
 
-      return new FragmentSlideshowBinding((ConstraintLayout) rootView, mapView, seekBar);
+      return new FragmentSlideshowBinding((ConstraintLayout) rootView, mapView, seekBarTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

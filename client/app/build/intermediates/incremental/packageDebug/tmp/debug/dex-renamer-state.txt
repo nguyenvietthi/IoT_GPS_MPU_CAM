@@ -1,9 +1,9 @@
-#Sat Jun 08 21:11:49 ICT 2024
+#Sun Jun 09 13:56:18 ICT 2024
 base.0=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.11=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes2.dex
-base.12=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.11=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.12=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes2.dex
 base.2=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.3=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 base.4=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
@@ -15,8 +15,8 @@ base.9=D\:\\OneDrive\\out_jobs\\IoT_GPS_MPU_CAM\\client\\app\\build\\intermediat
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=classes2.dex
-path.11=0/classes2.dex
-path.12=classes3.dex
+path.11=classes3.dex
+path.12=0/classes2.dex
 path.2=11/classes.dex
 path.3=13/classes.dex
 path.4=2/classes.dex

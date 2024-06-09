@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.SeekBar;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -27,8 +29,11 @@ import com.example.followvehicle.databinding.FragmentSlideshowBinding;
 
 import com.example.followvehicle.model.Location;
 import com.example.followvehicle.ui.login.LoginActivity;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.mapbox.geojson.Point;
+import com.mapbox.maps.CameraBoundsOptions;
 import com.mapbox.maps.CameraOptions;
+import com.mapbox.maps.EdgeInsets;
 import com.mapbox.maps.MapView;
 import com.mapbox.maps.Style;
 import com.mapbox.maps.extension.style.layers.properties.generated.TextAnchor;
@@ -58,12 +63,15 @@ public class SlideshowFragment extends Fragment{
 
     private FragmentSlideshowBinding binding;
     private MapView mapView;
+    private SeekBar seekBarTime;
+    private int process_value;
     private Handler handler;
     private CircleAnnotationManager circleAnnotationManager;
     private CircleAnnotation circleAnnotation;
     PointAnnotationManager pointAnnotationManager;
     PointAnnotationOptions pointAnnotationOptions;
-    Bitmap bitmap;
+    Bitmap startFinishBitmap;
+    Bitmap normalBitmap;
 
     List<Location> locationList = new ArrayList<>();
 
@@ -77,16 +85,16 @@ public class SlideshowFragment extends Fragment{
 
         binding = FragmentSlideshowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+
+        SelectDateTime bottomSheetFragment = new SelectDateTime();
+        bottomSheetFragment.show(getChildFragmentManager(), bottomSheetFragment.getTag());
+
         mapView = binding.mapView;
-
         pointAnnotationOptions = new PointAnnotationOptions();
-
-
         mapView.getMapboxMap().loadStyleUri(Style.MAPBOX_STREETS, new Style.OnStyleLoaded() {
             @Override
             public void onStyleLoaded(@NonNull Style style) {
 
-                bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.dot2);
                 AnnotationPlugin annotationPlugin = AnnotationPluginImplKt.getAnnotations(mapView);
                 pointAnnotationManager = PointAnnotationManagerKt.createPointAnnotationManager(annotationPlugin, mapView);
                 GesturesUtils.addOnMapClickListener(mapView.getMapboxMap(), new OnMapClickListener(){
@@ -97,10 +105,6 @@ public class SlideshowFragment extends Fragment{
                         return false;
                     }
                 });
-//                updateLocation(true);
-
-//                handler = new Handler();
-//                startLocationUpdates();
             }
 
         });
@@ -110,6 +114,7 @@ public class SlideshowFragment extends Fragment{
             @Override
             public void onChanged(List<String> s) {
                 if(!s.get(0).equals("") && !s.get(0).equals("")){
+                    seekBarTime.setVisibility(View.VISIBLE);
                     String cookie = StoreUserData.getInstance(requireContext()).getCookie();
                     String email = StoreUserData.getInstance(requireContext()).getEmail();
                     String deviceID = StoreUserData.getInstance(requireContext()).getKeyDeviceCode();
@@ -139,18 +144,9 @@ public class SlideshowFragment extends Fragment{
                                         i++;
                                     }
                                     System.out.println(locationList);
+                                    showLocationPoint(locationList);
 
-                                    CameraOptions cameraOptions = new CameraOptions.Builder()
-                                            .center(Point.fromLngLat(locationList.get(0).getLng(), locationList.get(0).getLat()))
-                                            .zoom(15.5)
-                                            .build();
-                                    mapView.getMapboxMap().setCamera(cameraOptions);
 
-                                    for(Location location:locationList){
-                                        pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER).withPoint(Point.fromLngLat(location.getLng() , location.getLat())).withTextSize(12.0).withIconImage(bitmap).withTextField(location.getDatetime() + "\n\n\n\n");
-
-                                        pointAnnotationManager.create(pointAnnotationOptions);
-                                    }
 
 
                                 } catch (JSONException e) {
@@ -170,87 +166,90 @@ public class SlideshowFragment extends Fragment{
             }
         });
 
+        seekBarTime = binding.seekBarTime;
+        seekBarTime.setVisibility(View.GONE);
+        seekBarTime.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                process_value = progress;
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+                List<Location> subLocationList = splitListByPercentage(locationList, process_value);
+
+                showLocationPoint(subLocationList);
+
+
+            }
+        });
+
         return root;
     }
 
-    private void startLocationUpdates() {
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                updateLocation(false);
-                handler.postDelayed(this, 10000); // Cập nhật sau mỗi 0.5 giây
-            }
-        }, 10000);
+    private void showLocationPoint(List<Location> locationListIn){
+
+        List<Point> points =new ArrayList<>();
+
+        for (Location location: locationListIn){
+            points.add(Point.fromLngLat(location.getLng(), location.getLat()));
+        }
+
+//        if (pointAnnotationManager != null) {
+            pointAnnotationManager.deleteAll();
+//        }
+
+        EdgeInsets edgeInsets = new EdgeInsets(100.0, 100.0, 100.0, 100.0);
+
+        CameraOptions cameraOptions = mapView.getMapboxMap().cameraForCoordinates(points, edgeInsets, null, null);
+
+        mapView.getMapboxMap().setCamera(cameraOptions);
+
+        normalBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.lc25);
+        PointAnnotationOptions normalPointAnnotationOptions = new PointAnnotationOptions();
+
+        for(int i = 1 ; i < locationListIn.size() - 1; i++){
+            normalPointAnnotationOptions.withTextAnchor(TextAnchor.CENTER)
+                    .withPoint(Point.fromLngLat(locationListIn.get(i).getLng(),locationListIn.get(i).getLat()))
+                    .withTextSize(12.0)
+                    .withIconImage(normalBitmap)
+                    .withTextColor("#000000")
+//                    .withTextField(locationList.get(i).getDatetime() + "\n\n\n\n")
+            ;
+
+            pointAnnotationManager.create(normalPointAnnotationOptions);
+        }
+
+        startFinishBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.specialdot);
+        PointAnnotationOptions speacialPointAnnotationOptions = new PointAnnotationOptions();
+        speacialPointAnnotationOptions.withTextAnchor(TextAnchor.CENTER)
+                .withPoint(Point.fromLngLat(locationListIn.get(locationListIn.size() - 1).getLng(),locationListIn.get(locationListIn.size() - 1).getLat()))
+                .withTextSize(14.0)
+                .withIconImage(startFinishBitmap)
+                .withTextColor("#8B4513")
+                .withTextHaloBlur(50.00)
+                .withTextField(locationListIn.get(locationListIn.size() - 1).getDatetime().replace("\"", "") + "\n\n\n\n")
+        ;
+
+        pointAnnotationManager.create(speacialPointAnnotationOptions);
+
+        speacialPointAnnotationOptions.withTextAnchor(TextAnchor.CENTER)
+                .withPoint(Point.fromLngLat(locationListIn.get(0).getLng(),locationListIn.get(0).getLat()))
+                .withTextSize(14.0)
+                .withIconImage(startFinishBitmap)
+                .withTextColor("#8B4513")
+                .withTextField(locationListIn.get(0).getDatetime().replace("\"", "") + "\n\n\n\n")
+        ;
+
+        pointAnnotationManager.create(speacialPointAnnotationOptions);
     }
 
-private void updateLocation(boolean focusCamera){
-    api.get_current_location("a", "a", "a", new Callback() {
-        @Override
-        public void onFailure(@NonNull Call call, @NonNull IOException e) {
-
-        }
-
-        @Override
-        public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-            if (!response.isSuccessful()) {
-                Log.e("MainActivity", "Unexpected code " + response);
-            } else {
-                String responseData = response.body().string();
-                double lat;
-                double lng;
-                try {
-                    JSONObject jsonObject = new JSONObject(responseData);
-                    lat = Double.parseDouble(jsonObject.getString("lat"));
-                    lng = Double.parseDouble(jsonObject.getString("lng"));
-
-                    if(focusCamera) {
-                        CameraOptions cameraOptions = new CameraOptions.Builder()
-                                .center(Point.fromLngLat(lng, lat))
-                                .zoom(15.5)
-                                .build();
-                        mapView.getMapboxMap().setCamera(cameraOptions);
-                    }
-
-                    pointAnnotationManager.deleteAll();
-                    pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER).withPoint(Point.fromLngLat(lng , lat)).withTextField("2024-06-01\n 16:04:00").withTextSize(12.0).withIconImage(bitmap);
-
-                    pointAnnotationManager.create(pointAnnotationOptions);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-            }
-        }
-    });
-}
-
-//    private void drawLine(@NonNull Style style) {
-//        // Tạo danh sách các tọa độ
-//        List<Point> points = new ArrayList<>();
-//        points.add(Point.fromLngLat(-77.0369, 38.9072)); // Washington, D.C.
-//        points.add(Point.fromLngLat(-122.4194, 37.7749)); // San Francisco
-//        points.add(Point.fromLngLat(-74.0060, 40.7128)); // New York
-//
-//        // Tạo LineString từ danh sách các điểm
-//        LineString lineString = LineString.fromLngLats(points);
-//
-//        // Thiết lập AnnotationManager
-//        AnnotationPluginImpl annotationPlugin = (AnnotationPluginImpl) mapView.getPlugin(AnnotationPluginImpl.class);
-//        AnnotationManager annotationManager = annotationPlugin.createAnnotationManager(mapView, new AnnotationConfig());
-//
-//        // Tạo LineAnnotationManager từ AnnotationManager
-//        LineAnno lineAnnotationManager = (LineAnnotationManager) annotationManager.getLineAnnotationManager(mapView);
-//
-//        // Tạo LineAnnotationOptions từ LineString
-//        LineAnnotationOptions lineAnnotationOptions = new LineAnnotationOptions()
-//                .withLineColor(Color.RED) // Màu của đường
-//                .withLineWidth(5.0) // Độ rộng của đường
-//                .withGeometry(lineString);
-//
-//        // Thêm LineAnnotation vào LineAnnotationManager
-//        LineAnnotation lineAnnotation = lineAnnotationManager.create(lineAnnotationOptions);
-//    }
 
     @Override
     public void onDestroyView() {
@@ -279,6 +278,12 @@ private void updateLocation(boolean focusCamera){
         transaction.replace(R.id.fragment_container, fragment);
         transaction.addToBackStack(null);
         transaction.commit();
+    }
+
+    public static <T> List<T> splitListByPercentage(List<T> list, int percentage) {
+        int size = list.size();
+        int subListSize = size * percentage / 100;
+        return list.subList(0, Math.min(size, subListSize));
     }
 
 

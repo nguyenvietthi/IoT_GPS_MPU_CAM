@@ -225,20 +225,20 @@
 128-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\12ad3a3aefe17ef54f77e242c5b05d87\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
 129
 130        <activity
-130-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+130-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\2721d82ce4c6ed961ac2fd9985e4fafd\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-131-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+131-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\2721d82ce4c6ed961ac2fd9985e4fafd\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 132            android:exported="false"
-132-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+132-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\2721d82ce4c6ed961ac2fd9985e4fafd\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-133-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\5480c232061a24d4eb3c1061c09d0b63\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\VIETTHI\.gradle\caches\transforms-4\2721d82ce4c6ed961ac2fd9985e4fafd\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 134
 135        <meta-data
-135-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+135-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d27f02dd4936482d2afe3756494ff03d\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
 136            android:name="com.google.android.gms.version"
-136-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+136-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d27f02dd4936482d2afe3756494ff03d\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
 137            android:value="@integer/google_play_services_version" />
-137-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\8c639225b0047462a25fd0113fb7f7fa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+137-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\d27f02dd4936482d2afe3756494ff03d\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 138
 139        <uses-library
 139-->[androidx.window:window:1.0.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\e8b2d5731e7ca30ea1073c34a86ab562\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40

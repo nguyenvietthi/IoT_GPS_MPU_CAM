@@ -3472,6 +3472,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dot
 drawable dot2
+drawable dot3
 drawable exo_controls_fastforward
 drawable exo_controls_fullscreen_enter
 drawable exo_controls_fullscreen_exit
@@ -3577,6 +3578,9 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable indeterminate_static
+drawable lc25
+drawable lc4
+drawable lcation3
 drawable loacation3
 drawable loaction2
 drawable location
@@ -3879,6 +3883,7 @@ drawable seekbar_custom_thumb
 drawable seekbar_progress
 drawable seekbar_style
 drawable side_nav_bar
+drawable specialdot
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -4426,7 +4431,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id secondaryManeuverText
-id seekBar
+id seekBarTime
 id select_dialog_listview
 id selected
 id selection_type
@@ -4434,7 +4439,6 @@ id shared
 id sharedValueSet
 id sharedValueUnset
 id shortcut
-id showBottomSheetButton
 id showCustom
 id showHome
 id showTitle

@@ -23,20 +23,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\5480c232061a24d4eb3c1061c09d0b63\\transformed\\play-services-base-18.1.0\\res\\values-in\\values.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\d27f02dd4936482d2afe3756494ff03d\\transformed\\play-services-basement-18.0.0\\res\\values-in\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,296,456,578,680,831,954,1065,1167,1329,1430,1590,1712,1863,2003,2063,2119",
-                        "endColumns": "102,159,121,101,150,122,110,101,161,100,159,121,150,139,59,55,74",
-                        "endOffsets": "295,455,577,679,830,953,1064,1166,1328,1429,1589,1711,1862,2002,2062,2118,2193"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
                     },
                     "to": {
-                        "startLines": "65,66,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5058,5165,5329,5455,5561,5716,5843,5958,6196,6362,6467,6631,6757,6912,7056,7120,7180",
-                        "endColumns": "106,163,125,105,154,126,114,105,165,104,163,125,154,143,63,59,78",
-                        "endOffsets": "5160,5324,5450,5556,5711,5838,5953,6059,6357,6462,6626,6752,6907,7051,7115,7175,7254"
+                        "startLines": "73",
+                        "startColumns": "4",
+                        "startOffsets": "6064",
+                        "endColumns": "131",
+                        "endOffsets": "6191"
                     }
                 },
                 {
@@ -110,20 +110,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\8c639225b0047462a25fd0113fb7f7fa\\transformed\\play-services-basement-18.1.0\\res\\values-in\\values.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\2721d82ce4c6ed961ac2fd9985e4fafd\\transformed\\play-services-base-18.0.1\\res\\values-in\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "127",
-                        "endOffsets": "322"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,296,456,578,680,831,954,1065,1167,1329,1430,1590,1712,1863,2003,2063,2119",
+                        "endColumns": "102,159,121,101,150,122,110,101,161,100,159,121,150,139,59,55,74",
+                        "endOffsets": "295,455,577,679,830,953,1064,1166,1328,1429,1589,1711,1862,2002,2062,2118,2193"
                     },
                     "to": {
-                        "startLines": "73",
-                        "startColumns": "4",
-                        "startOffsets": "6064",
-                        "endColumns": "131",
-                        "endOffsets": "6191"
+                        "startLines": "65,66,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5058,5165,5329,5455,5561,5716,5843,5958,6196,6362,6467,6631,6757,6912,7056,7120,7180",
+                        "endColumns": "106,163,125,105,154,126,114,105,165,104,163,125,154,143,63,59,78",
+                        "endOffsets": "5160,5324,5450,5556,5711,5838,5953,6059,6357,6462,6626,6752,6907,7051,7115,7175,7254"
                     }
                 },
                 {

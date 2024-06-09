@@ -24,6 +24,10 @@
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_lc4.png.flat",
+        "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\lc4.png"
+    },
+    {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\layout_fragment_vehicle_manage.xml.flat",
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\layout\\fragment_vehicle_manage.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_dot3.png.flat",
+        "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\dot3.png"
     },
     {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -108,6 +116,10 @@
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_lc25.png.flat",
+        "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\lc25.png"
+    },
+    {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_button_background.xml.flat",
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\button_background.xml"
     },
@@ -150,6 +162,10 @@
     {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\layout-w1240dp_activity_login.xml.flat",
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\layout-w1240dp\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_lcation3.png.flat",
+        "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\lcation3.png"
     },
     {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\layout_fragment_map.xml.flat",
@@ -214,5 +230,9 @@
     {
         "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_dot2.png.flat",
         "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\dot2.png"
+    },
+    {
+        "merged": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-debug-76:\\drawable_specialdot.png.flat",
+        "source": "C:\\Users\\VIETTHI\\.gradle\\daemon\\8.6\\com.example.followvehicle.app-main-78:\\drawable\\specialdot.png"
     }
 ]

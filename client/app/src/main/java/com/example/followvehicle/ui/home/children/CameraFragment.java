@@ -15,6 +15,7 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 import com.example.followvehicle.R;
+import com.example.followvehicle.api.api;
 
 public class CameraFragment extends Fragment {
 
@@ -26,7 +27,7 @@ public class CameraFragment extends Fragment {
         webSettings.setJavaScriptEnabled(true);
 
         // Đặt URL của luồng video từ Flask server
-        String videoUrl = "http://20.2.67.40:1234/";
+        String videoUrl = api.getBaseUrl();
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(videoUrl);
         return view;

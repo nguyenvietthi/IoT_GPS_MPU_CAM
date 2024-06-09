@@ -9,6 +9,10 @@ public class api {
     private static final String BASE_URL = "http://20.2.67.40:1234/";
     private static final OkHttpClient client = new OkHttpClient();
 
+    public static String getBaseUrl() {
+        return BASE_URL;
+    }
+
     public static void login(String email, String password, Callback callback) {
         JSONObject jsonBody = new JSONObject();
         try {

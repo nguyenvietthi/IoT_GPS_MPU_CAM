@@ -15,15 +15,15 @@ public class StatusFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_status, container, false);;
-        Button showBottomSheetButton = view.findViewById(R.id.showBottomSheetButton);
-        showBottomSheetButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showAlertDialog();
-//                BottomSheetFragment bottomSheetFragment = new BottomSheetFragment();
-//                bottomSheetFragment.show(getChildFragmentManager(), bottomSheetFragment.getTag());
-            }
-        });
+//        Button showBottomSheetButton = view.findViewById(R.id.showBottomSheetButton);
+//        showBottomSheetButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                showAlertDialog();
+////                BottomSheetFragment bottomSheetFragment = new BottomSheetFragment();
+////                bottomSheetFragment.show(getChildFragmentManager(), bottomSheetFragment.getTag());
+//            }
+//        });
 
 //        getParentFragmentManager().setFragmentResultListener("bottomSheetRequestKey", this, new FragmentResultListener() {
 //            @Override

@@ -1,5 +1,6 @@
 package com.example.followvehicle.ui.home;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
@@ -43,10 +45,36 @@ public class HomeFragment extends Fragment{
         Button btnFragmentStatus = binding.btnFragmentStatus;
         Button btnFragmentLocation = binding.btnFragmentLocation;
         Button btnFragmentCamera = binding.btnFragmentCamera;
+        btnFragmentStatus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                replaceFragment(new StatusFragment());
+                btnFragmentStatus.setTextColor(Color.parseColor("#CD853F"));
+                btnFragmentLocation.setTextColor(Color.parseColor("#FFFFFF"));
+                btnFragmentCamera.setTextColor(Color.parseColor("#FFFFFF"));
+            }
+        });
 
-        btnFragmentStatus.setOnClickListener(v -> replaceFragment(new StatusFragment()));
-        btnFragmentLocation.setOnClickListener(v -> replaceFragment(new LocationFragment()));
-        btnFragmentCamera.setOnClickListener(v -> replaceFragment(new CameraFragment()));
+        btnFragmentLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                replaceFragment(new LocationFragment());
+                btnFragmentStatus.setTextColor(Color.parseColor("#FFFFFF"));
+                btnFragmentLocation.setTextColor(Color.parseColor("#CD853F"));
+                btnFragmentCamera.setTextColor(Color.parseColor("#FFFFFF"));
+            }
+        });
+
+        btnFragmentCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                replaceFragment(new CameraFragment());
+                btnFragmentStatus.setTextColor(Color.parseColor("#FFFFFF"));
+                btnFragmentLocation.setTextColor(Color.parseColor("#FFFFFF"));
+                btnFragmentCamera.setTextColor(Color.parseColor("#CD853F"));
+            }
+        });
+
 
         // Load default fragment
         if (savedInstanceState == null) {

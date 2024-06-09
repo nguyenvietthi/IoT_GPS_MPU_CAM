@@ -16,11 +16,15 @@ dimen nav_header_vertical_spacing
 drawable button_background
 drawable dot
 drawable dot2
+drawable dot3
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_slideshow
+drawable lc25
+drawable lc4
+drawable lcation3
 drawable loacation3
 drawable loaction2
 drawable location
@@ -32,6 +36,7 @@ drawable seekbar_custom_thumb
 drawable seekbar_progress
 drawable seekbar_style
 drawable side_nav_bar
+drawable specialdot
 id CurrentLocationMap
 id account_name
 id action_settings
@@ -63,8 +68,7 @@ id nav_slideshow
 id nav_view
 id password
 id progressshape
-id seekBar
-id showBottomSheetButton
+id seekBarTime
 id textView
 id text_gallery
 id text_home
