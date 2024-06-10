@@ -5,6 +5,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -73,7 +74,7 @@ public class LocationFragment extends Fragment {
 
                 updateLocation(true);
 
-                handler = new Handler();
+                handler = new Handler(Looper.getMainLooper());
                 startLocationUpdates();
             }
         });
@@ -85,43 +86,68 @@ public class LocationFragment extends Fragment {
             @Override
             public void run() {
                 updateLocation(false);
-                handler.postDelayed(this, 10000); // Cập nhật sau mỗi 0.5 giây
+                handler.postDelayed(this, 5000); // Cập nhật sau mỗi 0.5 giây
             }
-        }, 10000);
+        }, 5000);
     }
 
     private void updateLocation(boolean focusCamera){
         api.get_current_location("a", "a", "a", new Callback() {
             @Override
             public void onFailure(@NonNull Call call, @NonNull IOException e) {
+                pointAnnotationManager.deleteAll();
+                pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER)
+                        .withPoint(Point.fromLngLat(0 , 0))
+                        .withTextField("LOST CONNECTION!!!")
+                        .withTextSize(30);
 
+                pointAnnotationManager.create(pointAnnotationOptions);
             }
 
             @Override
             public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
                 if (!response.isSuccessful()) {
-                    Log.e("MainActivity", "Unexpected code " + response);
+                    pointAnnotationManager.deleteAll();
+                    pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER)
+                            .withPoint(Point.fromLngLat(0 , 0))
+                            .withTextField("LOST CONNECTION!!!")
+                            .withTextSize(30);
+
+                    pointAnnotationManager.create(pointAnnotationOptions);
                 } else {
                     String responseData = response.body().string();
                     double lat;
                     double lng;
+                    String status;
                     try {
                         JSONObject jsonObject = new JSONObject(responseData);
                         lat = Double.parseDouble(jsonObject.getString("lat"));
                         lng = Double.parseDouble(jsonObject.getString("lng"));
+                        status = jsonObject.getString("message");
                         // Cập nhật vị trí của hình tròn
-                        if(focusCamera) {
-                            CameraOptions cameraOptions = new CameraOptions.Builder()
-                                    .center(Point.fromLngLat(lng, lat))
-                                    .zoom(15.5)
-                                    .build();
-                            mapView.getMapboxMap().setCamera(cameraOptions);
+                        if(status.equals("OK")){
+                            if(focusCamera) {
+                                CameraOptions cameraOptions = new CameraOptions.Builder()
+                                        .center(Point.fromLngLat(lng, lat))
+                                        .zoom(15.5)
+                                        .build();
+                                mapView.getMapboxMap().setCamera(cameraOptions);
+                            }
+
+                            pointAnnotationManager.deleteAll();
+                            pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER).withIconImage(bitmap).withPoint(Point.fromLngLat(lng , lat));
+
+                            pointAnnotationManager.create(pointAnnotationOptions);
+                        } else {
+                            pointAnnotationManager.deleteAll();
+                            pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER)
+                                    .withPoint(Point.fromLngLat(0 , 0))
+                                    .withTextField("LOST CONNECTION!!!")
+                                    .withTextSize(30);
+
+                            pointAnnotationManager.create(pointAnnotationOptions);
                         }
 
-                        pointAnnotationManager.deleteAll();
-                        pointAnnotationOptions.withTextAnchor(TextAnchor.CENTER).withIconImage(bitmap).withPoint(Point.fromLngLat(lng , lat));
-
-                        pointAnnotationManager.create(pointAnnotationOptions);
 
                     } catch (JSONException e) {
                         e.printStackTrace();

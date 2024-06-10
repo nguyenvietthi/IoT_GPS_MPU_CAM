@@ -201,9 +201,9 @@ public class SlideshowFragment extends Fragment{
             points.add(Point.fromLngLat(location.getLng(), location.getLat()));
         }
 
-//        if (pointAnnotationManager != null) {
+        if (pointAnnotationManager != null) {
             pointAnnotationManager.deleteAll();
-//        }
+        }
 
         EdgeInsets edgeInsets = new EdgeInsets(100.0, 100.0, 100.0, 100.0);
 

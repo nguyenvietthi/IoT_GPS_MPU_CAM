@@ -62,6 +62,8 @@ public class StatusFragment extends Fragment {
         String DEVICE_ID = StoreUserData.getInstance(requireContext()).getKeyDeviceCode();
         String email = StoreUserData.getInstance(requireContext()).getEmail();
         String cookie = StoreUserData.getInstance(requireContext()).getCookie();
+
+        UpdateMPU(DEVICE_ID, cookie, email);
         handler = new Handler(Looper.getMainLooper());
         startUpdateMPU(DEVICE_ID, email, cookie);
 
@@ -73,9 +75,9 @@ public class StatusFragment extends Fragment {
             @Override
             public void run() {
                 UpdateMPU(DEVICE_ID, cookie, email);
-                handler.postDelayed(this, 1000);
+                handler.postDelayed(this, 2000);
             }
-        }, 1000);
+        }, 2000);
     }
 
     private void UpdateMPU(String DEVICE_ID, String cookie, String email) {

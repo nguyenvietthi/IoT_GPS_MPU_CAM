@@ -75,7 +75,7 @@ def get_last_location(device_id):
         cursor = conn.cursor()
 
         query = '''
-        SELECT *
+        SELECT lat, lng, datetime
         FROM gps
         WHERE device_id = ?
         ORDER BY datetime DESC
@@ -85,7 +85,6 @@ def get_last_location(device_id):
         row = cursor.fetchone()
         return row
     
-print(get_last_location("tPmAT5Ab3j7F9")[1])
 
 def get_info(email, cookie):
     with get_db_connection() as conn:
@@ -112,6 +111,7 @@ def get_location_list(email, cookie, start_time, finish_time, device_id):
         WHERE datetime > ?
         AND datetime < ?
         AND device_id = ?
+        AND gps.lat != 0
         '''
         cursor.execute(query, (start_time, finish_time, device_id, ))
         row = cursor.fetchall()
@@ -151,7 +151,7 @@ def get_gps_data():
 # var msg8 = { payload: msg.payload.time };
 
     info_json = request.get_json()
-    print(info_json)
+    # print(info_json)
     api_key = info_json["api_key"]
     sensor = info_json["sensor"]
     lat = info_json["lat"]
@@ -161,8 +161,7 @@ def get_gps_data():
     alt = info_json["alt"]
     date = info_json["date"]
     time = info_json["time"]
-    if(float(lat) != 0 and float(lng) != 0):
-        update_location(api_key, lat, lng, speed, sat, alt)
+    update_location(api_key, lat, lng, speed, sat, alt)
     response_body = {"message": "OK"}
     response = make_response(jsonify(response_body), 200)
     return response
@@ -207,12 +206,11 @@ def get_current_mpu():
     db_time = data[8]
 
     if(check_status(db_time)):
-
         response_body = {"message": "OK", "accx" : data[1], "accy" : data[2], "accz" : data[3], "gyrox" : data[4], "gyroy" : data[5], "gyroz" : data[6], "temperature" : data[7]}
     else:
         response_body = {"message": "FAIL", "accx" : data[1], "accy" : data[2], "accz" : data[3], "gyrox" : data[4], "gyroy" : data[5], "gyroz" : data[6], "temperature" : data[7]}
 
-    print(response_body)
+    # print(response_body)
 
     response = make_response(jsonify(response_body), 200)
     return response
@@ -223,7 +221,7 @@ def login():
     email = request.json.get('email')
     password = request.json.get('password')
 
-    print(email, password)
+    # print(email, password)
     random_cookie = secrets.token_hex(16)
 
 
@@ -236,7 +234,7 @@ def login():
         response_body = {"message": "FAIL", "cookie": "000000", "name":"0000000"}
 
 
-    print(response_body)
+    # print(response_body)
 
     response = make_response(jsonify(response_body), 200)
     return response
@@ -254,7 +252,7 @@ def logout():
     #     print
     #     response_body = {"message": "FAIL"}
 
-    print(response_body)
+    # print(response_body)
 
     response = make_response(jsonify(response_body), 200)
     return response
@@ -264,7 +262,7 @@ def check_cookie():
     email = request.json.get('email')
     cookie = request.json.get('cookie')
 
-    print(cookie, email)
+    # print(cookie, email)
 
     check = email_name_exists(email=email, cookie=cookie)
 
@@ -272,7 +270,7 @@ def check_cookie():
         response_body = {"message": "OK"}
     else:   
         response_body = {"message": "FAIL"}
-    print(response_body)
+    # print(response_body)
     response = make_response(jsonify(response_body), 200)
     return response
 
@@ -284,11 +282,13 @@ def get_current_location():
     device_id = "tPmAT5Ab3j7F9"
 
     data = get_last_location(device_id)
+    db_time = data[2]
+    if(check_status(db_time) and float(data[0]) != 0 and float(data[1]) != 0):
+        response_body = {"message": "OK", "lat": data[0], "lng" : data[1]}
+    else:
+        response_body = {"message": "FAIL", "lat": "0", "lng" : "0"}
 
-
-    response_body = {"message": "OK", "lat": data[1], "lng" : data[2]}
-
-    print(response_body)
+    # print(response_body)
 
     response = make_response(jsonify(response_body), 200)
     return response
@@ -303,12 +303,12 @@ def get_location_history_list():
     finish_time = request.json.get('finishTime')
     device_id = "tPmAT5Ab3j7F9"
 
-    print(request.json)
+    # print(request.json)
 
     data = get_location_list(cookie=cookie, device_id=device_id, email=email, finish_time=finish_time, start_time=start_time)
     results = [tuple(row) for row in data]
     response_body = {"message": "OK", "location": results}
-    print(response_body)
+    # print(response_body)
 
     response = make_response(jsonify(response_body), 200)
     return response

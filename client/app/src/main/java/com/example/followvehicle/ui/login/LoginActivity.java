@@ -79,9 +79,11 @@ public class LoginActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                     if (status.equals("OK")) {
+
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         intent.putExtra("email", email);
                         intent.putExtra("cookie", cookie);
+                        intent.putExtra("account_name", StoreUserData.getInstance(LoginActivity.this).getKeyAccountName());
                         startActivity(intent);
                     }
                 }
