@@ -19,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 gmt_plus_7 = timezone(timedelta(hours=7))
 
 
-face_cascade = cv2.CascadeClassifier('instance/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('instance/haarcascade_frontalface_alt.xml')
 
 def counting_person(img_in_path, img_out_path):
     img = cv2.imread(img_in_path)
