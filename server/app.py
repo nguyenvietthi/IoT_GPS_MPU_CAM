@@ -13,8 +13,28 @@ from io import BytesIO
 from PIL import Image
 from base64 import b64encode
 
+
+
 from datetime import datetime, timedelta, timezone
 gmt_plus_7 = timezone(timedelta(hours=7))
+
+
+face_cascade = cv2.CascadeClassifier('instance/haarcascade_frontalface_default.xml')
+
+def counting_person(img_in_path, img_out_path):
+    img = cv2.imread(img_in_path)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    # Detect the faces
+    faces = face_cascade.detectMultiScale(gray, 1.1, 4)
+
+    # Draw the rectangle around each face
+    for (x, y, w, h) in faces:
+        cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
+
+    # Display
+    cv2.imwrite(img_out_path, img)
+
 
 
 def get_current_time():
@@ -315,8 +335,10 @@ def get_location_history_list():
 
 def get_image():
     while True:
+        counting_person("instance/image.jpg", "instance/image_out.jpg")
+
         try:
-            with open("instance/image.jpg", "rb") as f:
+            with open("instance/image_out.jpg", "rb") as f:
                 image_bytes = f.read()
             image = Image.open(BytesIO(image_bytes))
             img_io = BytesIO()
@@ -330,7 +352,7 @@ def get_image():
             print("encountered an exception: ")
             print(e)
 
-            with open("instance/image.jpg", "rb") as f:
+            with open("instance/image_out.jpg", "rb") as f:
                 image_bytes = f.read()
             image = Image.open(BytesIO(image_bytes))
             img_io = BytesIO()
