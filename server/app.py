@@ -49,7 +49,7 @@ def mcu_alert(vehicle, accx, accy, accz):
         elif ((accy > 45) or (accy < -45)):
             alertY = "Xe Gặp Nguy Hiểm"
 
-    return {alertX,alertY}
+    return alertX,alertY
 
 def counting_person(img_in_path, img_out_path):
     img = cv2.imread(img_in_path)
