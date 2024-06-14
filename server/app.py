@@ -229,6 +229,9 @@ def check():
         socketio.emit('message_from_server', {'message': "CHECK Notification"}, namespace='/')
     except:
         pass
+    response_body = {"message": "OK"}
+    response = make_response(jsonify(response_body), 200)
+    return response
 
 @app.route('/update-mpu', methods = ['POST', "GET"])
 def get_mpu_data():
