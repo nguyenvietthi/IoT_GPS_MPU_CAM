@@ -39,7 +39,7 @@ def counting_person(img_in_path, img_out_path):
     thickness              = 1
     lineType               = 2
 
-    cv2.putText(img,'Number of people: ' + len(faces), 
+    cv2.putText(img,'Number of people: ' + str(len(faces)), 
         bottomLeftCornerOfText, 
         font, 
         fontScale,
