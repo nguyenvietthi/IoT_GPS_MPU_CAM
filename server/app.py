@@ -225,7 +225,10 @@ def get_gps_data():
 
 @app.route('/check', methods = ['POST', "GET"])
 def check():
-    socketio.emit('message_from_server', {'message': "CHECK Notification"}, namespace='/')
+    try:
+        socketio.emit('message_from_server', {'message': "CHECK Notification"}, namespace='/')
+    except:
+        pass
 
 @app.route('/update-mpu', methods = ['POST', "GET"])
 def get_mpu_data():
