@@ -222,6 +222,11 @@ def get_gps_data():
     response = make_response(jsonify(response_body), 200)
     return response
 
+
+@app.route('/check', methods = ['POST', "GET"])
+def check():
+    socketio.emit('message_from_server', {'message': "CHECK Notification"}, namespace='/')
+
 @app.route('/update-mpu', methods = ['POST', "GET"])
 def get_mpu_data():
     info_json = request.get_json()
