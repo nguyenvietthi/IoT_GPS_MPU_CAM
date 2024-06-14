@@ -8,6 +8,7 @@ import secrets
 import sqlite3
 
 
+from flask_socketio import SocketIO, emit
 
 from io import BytesIO
 from PIL import Image
@@ -20,6 +21,35 @@ gmt_plus_7 = timezone(timedelta(hours=7))
 
 
 face_cascade = cv2.CascadeClassifier('instance/haarcascade_frontalface_alt.xml')
+
+def mcu_alert(vehicle, accx, accy, accz):
+    alertX = ""
+    alertY = ""
+    if (vehicle == "motorbyke"):
+        if (accx > 30):
+            alertX = "Xe Bốc Đầu"
+        elif (accx < -30):
+            alertX = "Xe Bốc Đuôi"
+
+        if ((accy > 30) or (accy < -30)):
+            alertY = "Xe Bị Nghiêng"
+        elif ((accy > 60) or (accy < -60)):
+            alertY = "Xe Bị Đổ"
+
+    elif (vehicle == "car"):
+        if (accx > 30):
+            alertX = "Xe Bốc Đầu"
+        elif (accx < -30):
+            alertX = "Xe Bốc Đuôi"
+        elif ((accx > 45) or (accx < -45)):
+            alertX = "Xe Gặp Nguy Hiểm"
+
+        if ((accy > 20) or (accy < -20)):
+            alertY = "Xe Bị Nghiêng"
+        elif ((accy > 45) or (accy < -45)):
+            alertY = "Xe Gặp Nguy Hiểm"
+
+    return {alertX,alertY}
 
 def counting_person(img_in_path, img_out_path):
     img = cv2.imread(img_in_path)
@@ -155,7 +185,10 @@ def get_mpu_info(email, cookie, device_id):
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+app.config['SECRET_KEY'] = 'your_secret_key'
+CORS(app)
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 @app.route('/',methods = ['GET'])
 def home():
@@ -213,6 +246,11 @@ def get_mpu_data():
     temperature = info_json["temperature"]
 
     update_mpu(api_key, accx, accy, accz, gyrox, gyroy, gyroz, temperature)
+
+    mpu_status = mcu_alert("motorbyke", float(accx), float(accy), float(accz))
+
+    if(mpu_status[0] != "" or mpu_status[1] != ""):
+        socketio.emit('message_from_server', {'message': mpu_status[0] + " " + mpu_status[1]}, namespace='/')
 
     response_body = {"message": "OK"}
     response = make_response(jsonify(response_body), 200)
@@ -367,8 +405,26 @@ def get_image():
             continue
 
 @app.route('/stream')
+
 def stream():
     return Response(get_image(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+
+@socketio.on('connect')
+def handle_connect():
+    print('Client connected')
+
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    print('Client disconnected')
+
+@socketio.on('message_from_client')
+def handle_message_from_client(message):
+    print('Message from client:', message)
+    emit('message_from_server', {'message': message}, broadcast=True)
+
+
+
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=1234)
+    socketio.run(app, host='0.0.0.0', port=1234)
