@@ -32,20 +32,8 @@ def counting_person(img_in_path, img_out_path):
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
 
-    font                   = cv2.FONT_HERSHEY_SIMPLEX
-    bottomLeftCornerOfText = (10,500)
-    fontScale              = 1
-    fontColor              = (255,255,255)
-    thickness              = 1
-    lineType               = 2
-
-    cv2.putText(img,'Number of people: ' + str(len(faces)), 
-        bottomLeftCornerOfText, 
-        font, 
-        fontScale,
-        fontColor,
-        thickness,
-        lineType)
+    font = cv2.FONT_HERSHEY_SIMPLEX 
+    cv2.putText(img,'Number of people: ' + str(len(faces)),(10,30),font,0.7,(255,255,255),1)
 
     # Display
     cv2.imwrite(img_out_path, img)
