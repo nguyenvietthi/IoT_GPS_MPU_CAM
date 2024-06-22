@@ -1,6 +1,7 @@
 package com.example.followvehicle;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.followvehicle.api.NotificationHelper;
 import com.example.followvehicle.api.StoreUserData;
 import com.example.followvehicle.api.api;
 import com.example.followvehicle.ui.login.LoginActivity;
@@ -16,6 +18,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -38,15 +41,23 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+    private WebSocketClient webSocketClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMain.toolbar);
+
+        NotificationHelper.createNotificationChannel(this);
+
+        // Thiết lập WebSocket
+        webSocketClient = new WebSocketClient(this);
 
         Intent intent = getIntent();
         String email = intent.getStringExtra("email");
@@ -117,6 +128,12 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+//        webSocketClient.disconnectWebSocket();
     }
 
     @Override

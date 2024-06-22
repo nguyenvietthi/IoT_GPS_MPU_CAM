@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import okhttp3.*;
 import java.io.IOException;
 public class api {
-    private static final String BASE_URL = "http://20.2.67.40:1234/";
+    private static final String BASE_URL = "http://192.168.1.68:1234/";
     private static final OkHttpClient client = new OkHttpClient();
 
     public static String getBaseUrl() {

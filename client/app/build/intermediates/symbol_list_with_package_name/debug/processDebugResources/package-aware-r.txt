@@ -4331,6 +4331,7 @@ id nav_gallery
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_main
+id nav_notification
 id nav_slideshow
 id nav_view
 id navigationCollapsedNotificationLayout
@@ -4409,6 +4410,7 @@ id progressshape
 id radio
 id ratio
 id rectangles
+id recyclerViewNotifications
 id report_drawn
 id reverseSawtooth
 id right
@@ -4749,6 +4751,7 @@ layout fragment_camera
 layout fragment_home
 layout fragment_location
 layout fragment_map
+layout fragment_show_notification
 layout fragment_slideshow
 layout fragment_status
 layout fragment_vehicle_manage

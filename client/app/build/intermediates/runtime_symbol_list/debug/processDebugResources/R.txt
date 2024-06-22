@@ -4330,6 +4330,7 @@ int id nav_gallery 0x7f0a01a9
 int id nav_home 0x7f0a01aa
 int id nav_host_fragment_container 0x7f0a01ab
 int id nav_host_fragment_content_main 0x7f0a01ac
+int id nav_notification 0x7f0a02c0
 int id nav_slideshow 0x7f0a01ad
 int id nav_view 0x7f0a01ae
 int id navigationCollapsedNotificationLayout 0x7f0a01af
@@ -4408,6 +4409,7 @@ int id progressshape 0x7f0a01f7
 int id radio 0x7f0a01f8
 int id ratio 0x7f0a01f9
 int id rectangles 0x7f0a01fa
+int id recyclerViewNotifications 0x7f0a02c1
 int id report_drawn 0x7f0a01fb
 int id reverseSawtooth 0x7f0a01fc
 int id right 0x7f0a01fd
@@ -4748,6 +4750,7 @@ int layout fragment_camera 0x7f0d003e
 int layout fragment_home 0x7f0d003f
 int layout fragment_location 0x7f0d0040
 int layout fragment_map 0x7f0d0041
+int layout fragment_show_notification 0x7f0d009e
 int layout fragment_slideshow 0x7f0d0042
 int layout fragment_status 0x7f0d0043
 int layout fragment_vehicle_manage 0x7f0d0044

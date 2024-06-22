@@ -23,4 +23,10 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.followvehicle.ShowNotification"
+        android:label="Notification"
+        tools:layout="@layout/fragment_show_notification" />
+
 </navigation>

@@ -9,22 +9,22 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:6:5-81
-12-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:6:22-78
+12-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:7:5-81
+12-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:7:22-78
 13
 14    <!-- Include only if your app benefits from precise location access. -->
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:9:5-79
-15-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:9:22-76
-16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-16-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:12:5-77
-16-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:12:22-74
-17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-17-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:13:5-77
-17-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:13:22-74
+15-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:10:5-79
+15-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:11:5-77
+16-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:12:5-77
+17-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:12:22-74
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 18-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:15:5-79
 18-->[com.mapbox.navigation:core:2.15.2] C:\Users\VIETTHI\.gradle\caches\transforms-4\e297a53f733814f2f788a4b44dd4a099\transformed\core-2.15.2\AndroidManifest.xml:15:22-76
@@ -78,30 +78,30 @@
 44-->[androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 45
 46    <application
-46-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:11:5-54:19
+46-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:13:5-56:19
 47        android:allowBackup="true"
-47-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:12:9-35
+47-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:14:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 48-->[androidx.core:core:1.13.0] C:\Users\VIETTHI\.gradle\caches\transforms-4\317de3dbdfe61554e52af52384037e8d\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 49        android:dataExtractionRules="@xml/data_extraction_rules"
-49-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:13:9-65
+49-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:15:9-65
 50        android:debuggable="true"
 51        android:extractNativeLibs="false"
 52        android:fullBackupContent="@xml/backup_rules"
-52-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:14:9-54
+52-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:16:9-54
 53        android:icon="@mipmap/ic_launcher"
-53-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:15:9-43
+53-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:17:9-43
 54        android:label="@string/app_name"
-54-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:16:9-41
+54-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:18:9-41
 55        android:networkSecurityConfig="@xml/network_security_config"
-55-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:17:9-69
+55-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:19:9-69
 56        android:roundIcon="@mipmap/ic_launcher_round"
-56-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:18:9-54
+56-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:20:9-54
 57        android:supportsRtl="true"
-57-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:19:9-35
+57-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:21:9-35
 58        android:testOnly="true"
 59        android:theme="@style/Theme.FollowVehicle" >
-59-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:20:9-51
+59-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:22:9-51
 60
 61        <!--
 62             TODO: Before you run your application, you need a Google Maps API key.
@@ -115,41 +115,41 @@
 70             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
 71        -->
 72        <meta-data
-72-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:34:9-36:32
+72-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:36:9-38:32
 73            android:name="com.google.android.geo.API_KEY"
-73-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:35:13-58
+73-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:37:13-58
 74            android:value="" />
-74-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:36:13-29
+74-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:38:13-29
 75
 76        <activity
-76-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:38:9-42:70
+76-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:40:9-44:70
 77            android:name="com.example.followvehicle.MainActivity"
-77-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:39:13-41
+77-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:41:13-41
 78            android:exported="true"
-78-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:40:13-36
+78-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:42:13-36
 79            android:label="@string/app_name"
-79-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:41:13-45
+79-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:43:13-45
 80            android:theme="@style/Theme.FollowVehicle.NoActionBar" />
-80-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:42:13-67
+80-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:44:13-67
 81        <activity
-81-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:43:9-53:20
+81-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:45:9-55:20
 82            android:name="com.example.followvehicle.ui.login.LoginActivity"
-82-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:44:13-51
+82-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:46:13-51
 83            android:exported="true"
-83-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:45:13-36
+83-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:47:13-36
 84            android:label="@string/app_name"
-84-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:46:13-45
+84-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:48:13-45
 85            android:theme="@style/Theme.FollowVehicle.NoActionBar" >
-85-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:47:13-67
+85-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:49:13-67
 86            <intent-filter>
-86-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:48:13-52:29
+86-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:50:13-54:29
 87                <action android:name="android.intent.action.MAIN" />
-87-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:49:17-69
-87-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:49:25-66
+87-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:51:17-69
+87-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:51:25-66
 88
 89                <category android:name="android.intent.category.LAUNCHER" />
-89-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:51:17-77
-89-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:51:27-74
+89-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:53:17-77
+89-->D:\OneDrive\out_jobs\IoT_GPS_MPU_CAM\client\app\src\main\AndroidManifest.xml:53:27-74
 90            </intent-filter>
 91        </activity>
 92
