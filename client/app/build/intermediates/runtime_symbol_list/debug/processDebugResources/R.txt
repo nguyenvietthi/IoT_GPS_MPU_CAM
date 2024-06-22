@@ -4356,6 +4356,7 @@ int id notificationArrivalText 0x7f0a01c2
 int id notificationDistanceText 0x7f0a01c3
 int id notificationInstructionText 0x7f0a01c4
 int id notification_background 0x7f0a01c5
+int id notification_list 0x7f0a02c2
 int id notification_main_column 0x7f0a01c6
 int id notification_main_column_container 0x7f0a01c7
 int id off 0x7f0a01c8
@@ -4409,7 +4410,6 @@ int id progressshape 0x7f0a01f7
 int id radio 0x7f0a01f8
 int id ratio 0x7f0a01f9
 int id rectangles 0x7f0a01fa
-int id recyclerViewNotifications 0x7f0a02c1
 int id report_drawn 0x7f0a01fb
 int id reverseSawtooth 0x7f0a01fc
 int id right 0x7f0a01fd

@@ -79,9 +79,9 @@ id nav_host_fragment_content_main
 id nav_notification
 id nav_slideshow
 id nav_view
+id notification_list
 id password
 id progressshape
-id recyclerViewNotifications
 id seekBarTime
 id statusLabel
 id temperature

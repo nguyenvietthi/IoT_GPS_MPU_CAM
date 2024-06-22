@@ -4357,6 +4357,7 @@ id notificationArrivalText
 id notificationDistanceText
 id notificationInstructionText
 id notification_background
+id notification_list
 id notification_main_column
 id notification_main_column_container
 id off
@@ -4410,7 +4411,6 @@ id progressshape
 id radio
 id ratio
 id rectangles
-id recyclerViewNotifications
 id report_drawn
 id reverseSawtooth
 id right
