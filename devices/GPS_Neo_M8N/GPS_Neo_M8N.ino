@@ -1,10 +1,11 @@
 #include <SoftwareSerial.h>       // Include software serial library
 #include <TinyGPS++.h>            // Include TinyGPS++ library
-#include <Adafruit_MPU6050.h>
-#include <Adafruit_Sensor.h>
+// #include <Adafruit_MPU6050.h>
+// #include <Adafruit_Sensor.h>
 #include <Wire.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include <MPU6050_tockn.h>
 
 const char* ssid = "VIETTEL";
 const char* password = "lamgicomatkhau";
@@ -16,13 +17,14 @@ const char* password = "lamgicomatkhau";
 // const char* password = "Dtvc124@";
 
 //Your Domain name with URL path or IP address with path
-String serverNameMPU = "http://113.23.79.192:1234/update-mpu";
-String serverNameGPS = "http://113.23.79.192:1234/update-gps";
-String serverDebugMPU = "http://192.168.1.3:1880/update-mpu";
-String serverDebugGPS = "http://192.168.1.3:1880/update-gps";
+String serverNameMPU = "http://20.2.67.40:1234/update-mpu";
+String serverNameGPS = "http://20.2.67.40:1234/update-gps";
+// String serverDebugMPU = "http://192.168.1.3:1880/update-mpu";
+// String serverDebugGPS = "http://192.168.1.3:1880/update-gps";
 
 // Basic demo for accelerometer readings from Adafruit MPU6050
-Adafruit_MPU6050 mpu;
+// Adafruit_MPU6050 mpu;
+MPU6050 mpu6050(Wire);
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
@@ -55,7 +57,7 @@ void connectToWiFi() {
   int i = 0;
 
   Serial.print("Connecting to WiFi");
-  while ((WiFi.status() != WL_CONNECTED) && ((millis() - startAttemptTime) < WIFI_TIMEOUT_MS)) {
+  while ((WiFi.status() != WL_CONNECTED)) {
     delay(1000);
     if (i%2 == 0) {
       digitalWrite (LED_PIN, HIGH);
@@ -76,77 +78,77 @@ void connectToWiFi() {
   }
 }
 
-void initMPU() {
-  if (!mpu.begin()) {
-    Serial.println("Failed to find MPU6050 chip");
-    while (1) {
-      delay(10);
-    }
-  }
-  Serial.println("MPU6050 Found!");
+// void initMPU() {
+//   if (!mpu.begin()) {
+//     Serial.println("Failed to find MPU6050 chip");
+//     while (1) {
+//       delay(10);
+//     }
+//   }
+//   Serial.println("MPU6050 Found!");
 
-  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
-  Serial.print("Accelerometer range set to: ");
-  switch (mpu.getAccelerometerRange()) {
-  case MPU6050_RANGE_2_G:
-    Serial.println("+-2G");
-    break;
-  case MPU6050_RANGE_4_G:
-    Serial.println("+-4G");
-    break;
-  case MPU6050_RANGE_8_G:
-    Serial.println("+-8G");
-    break;
-  case MPU6050_RANGE_16_G:
-    Serial.println("+-16G");
-    break;
-  }
-  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
-  Serial.print("Gyro range set to: ");
-  switch (mpu.getGyroRange()) {
-  case MPU6050_RANGE_250_DEG:
-    Serial.println("+- 250 deg/s");
-    break;
-  case MPU6050_RANGE_500_DEG:
-    Serial.println("+- 500 deg/s");
-    break;
-  case MPU6050_RANGE_1000_DEG:
-    Serial.println("+- 1000 deg/s");
-    break;
-  case MPU6050_RANGE_2000_DEG:
-    Serial.println("+- 2000 deg/s");
-    break;
-  }
+//   mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
+//   Serial.print("Accelerometer range set to: ");
+//   switch (mpu.getAccelerometerRange()) {
+//   case MPU6050_RANGE_2_G:
+//     Serial.println("+-2G");
+//     break;
+//   case MPU6050_RANGE_4_G:
+//     Serial.println("+-4G");
+//     break;
+//   case MPU6050_RANGE_8_G:
+//     Serial.println("+-8G");
+//     break;
+//   case MPU6050_RANGE_16_G:
+//     Serial.println("+-16G");
+//     break;
+//   }
+//   mpu.setGyroRange(MPU6050_RANGE_500_DEG);
+//   Serial.print("Gyro range set to: ");
+//   switch (mpu.getGyroRange()) {
+//   case MPU6050_RANGE_250_DEG:
+//     Serial.println("+- 250 deg/s");
+//     break;
+//   case MPU6050_RANGE_500_DEG:
+//     Serial.println("+- 500 deg/s");
+//     break;
+//   case MPU6050_RANGE_1000_DEG:
+//     Serial.println("+- 1000 deg/s");
+//     break;
+//   case MPU6050_RANGE_2000_DEG:
+//     Serial.println("+- 2000 deg/s");
+//     break;
+//   }
 
-  mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
-  Serial.print("Filter bandwidth set to: ");
-  switch (mpu.getFilterBandwidth()) {
-  case MPU6050_BAND_260_HZ:
-    Serial.println("260 Hz");
-    break;
-  case MPU6050_BAND_184_HZ:
-    Serial.println("184 Hz");
-    break;
-  case MPU6050_BAND_94_HZ:
-    Serial.println("94 Hz");
-    break;
-  case MPU6050_BAND_44_HZ:
-    Serial.println("44 Hz");
-    break;
-  case MPU6050_BAND_21_HZ:
-    Serial.println("21 Hz");
-    break;
-  case MPU6050_BAND_10_HZ:
-    Serial.println("10 Hz");
-    break;
-  case MPU6050_BAND_5_HZ:
-    Serial.println("5 Hz");
-    break;
-  }
+//   mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
+//   Serial.print("Filter bandwidth set to: ");
+//   switch (mpu.getFilterBandwidth()) {
+//   case MPU6050_BAND_260_HZ:
+//     Serial.println("260 Hz");
+//     break;
+//   case MPU6050_BAND_184_HZ:
+//     Serial.println("184 Hz");
+//     break;
+//   case MPU6050_BAND_94_HZ:
+//     Serial.println("94 Hz");
+//     break;
+//   case MPU6050_BAND_44_HZ:
+//     Serial.println("44 Hz");
+//     break;
+//   case MPU6050_BAND_21_HZ:
+//     Serial.println("21 Hz");
+//     break;
+//   case MPU6050_BAND_10_HZ:
+//     Serial.println("10 Hz");
+//     break;
+//   case MPU6050_BAND_5_HZ:
+//     Serial.println("5 Hz");
+//     break;
+//   }
 
-  Serial.println("");
-  delay(100);
-}
+//   Serial.println("");
+//   delay(100);
+// }
 
 void print_speed() {
   Serial.print("lat: ");
@@ -192,7 +194,10 @@ void setup() {
   connectToWiFi();
 
   // Try to initialize!
-  initMPU();
+  // initMPU();
+  Wire.begin();
+  mpu6050.begin();
+  mpu6050.calcGyroOffsets(true);
 }
 
 void loop() {
@@ -216,7 +221,7 @@ void loop() {
   //Check WiFi connection status
   if(WiFi.status()== WL_CONNECTED){
     digitalWrite (LED_PIN, HIGH);
-    if (gps.location.isUpdated() || gps.satellites.isUpdated()){
+    if (gps.location.isUpdated() || gps.satellites.isUpdated() || gps.time.isUpdated()){
       // Debug GPS
       print_speed();
 
@@ -278,37 +283,38 @@ void loop() {
       http.end();
 
       // ----------------------------------------------------------------------
-      // Your Domain name with URL path or IP address with path
-      http.begin(client, serverDebugGPS);
+      // // Your Domain name with URL path or IP address with path
+      // http.begin(client, serverDebugGPS);
       
-      // Specify content-type header
-      http.addHeader("Content-Type", "application/json");
+      // // Specify content-type header
+      // http.addHeader("Content-Type", "application/json");
       
-      // Send HTTP POST request
-      httpResponseCode = http.POST(httpRequestData);
+      // // Send HTTP POST request
+      // httpResponseCode = http.POST(httpRequestData);
 
-      Serial.println();
-      Serial.print("GPS Debug HTTP Response code: ");
-      Serial.println(httpResponseCode);
+      // Serial.println();
+      // Serial.print("GPS Debug HTTP Response code: ");
+      // Serial.println(httpResponseCode);
 
-      // Free resources
-      http.end();
+      // // Free resources
+      // http.end();
     }
 
     /* Get new sensor events with the readings */
-    sensors_event_t a, g, temp;
-    mpu.getEvent(&a, &g, &temp);
+    // sensors_event_t a, g, temp;
+    // mpu.getEvent(&a, &g, &temp);
+    mpu6050.update();
 
     // Data to send with HTTP POST
     api_key = "\"api_key\":\"tPmAT5Ab3j7F9\",";
     sensor = "\"sensor\":\"MPU6050\",";
-    String accx = "\"accx\":\"" + String(a.acceleration.x) + "\",";
-    String accy = "\"accy\":\"" + String(a.acceleration.y) + "\",";
-    String accz = "\"accz\":\"" + String(a.acceleration.z) + "\",";
-    String gyrox = "\"gyrox\":\"" + String(g.gyro.x) + "\",";
-    String gyroy = "\"gyroy\":\"" + String(g.gyro.y) + "\",";
-    String gyroz = "\"gyroz\":\"" + String(g.gyro.z) + "\",";
-    String temperature = "\"temperature\":\"" + String(temp.temperature) + "\"";
+    String accx = "\"accx\":\"" + String(mpu6050.getAngleX()) + "\",";
+    String accy = "\"accy\":\"" + String(mpu6050.getAngleY()) + "\",";
+    String accz = "\"accz\":\"" + String(mpu6050.getAngleZ()) + "\",";
+    String gyrox = "\"gyrox\":\"" + String(mpu6050.getGyroAngleX()) + "\",";
+    String gyroy = "\"gyroy\":\"" + String(mpu6050.getGyroAngleY()) + "\",";
+    String gyroz = "\"gyroz\":\"" + String(mpu6050.getGyroAngleZ()) + "\",";
+    String temperature = "\"temperature\":\"" + String(mpu6050.getTemp()) + "\"";
     httpRequestData = "{" + api_key + sensor + accx + accy + accz + gyrox + gyroy + gyroz + temperature + "}";
 
     // ----------------------------------------------------------------------
@@ -328,23 +334,24 @@ void loop() {
     http.end();
 
     // ----------------------------------------------------------------------
-    // Your Domain name with URL path or IP address with path
-    http.begin(client, serverDebugMPU);
+    // // Your Domain name with URL path or IP address with path
+    // http.begin(client, serverDebugMPU);
     
-    // Specify content-type header
-    http.addHeader("Content-Type", "application/json");
+    // // Specify content-type header
+    // http.addHeader("Content-Type", "application/json");
     
-    // Send HTTP POST request
-    httpResponseCode = http.POST(httpRequestData);
+    // // Send HTTP POST request
+    // httpResponseCode = http.POST(httpRequestData);
 
-    Serial.print("MPU Debug HTTP Response code: ");
-    Serial.println(httpResponseCode);
+    // Serial.print("MPU Debug HTTP Response code: ");
+    // Serial.println(httpResponseCode);
 
-    // Free resources
-    http.end();
+    // // Free resources
+    // http.end();
   }
   else {
     digitalWrite (LED_PIN, LOW);
     Serial.println("WiFi Disconnected");
+    delay(500);
   }
 }
