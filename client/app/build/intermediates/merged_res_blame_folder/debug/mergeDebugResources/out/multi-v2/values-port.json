@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.followvehicle.app-mergeDebugResources-74:/values-port/values-port.xml",
+            "outputFile": "com.example.followvehicle.app-mergeDebugResources-75:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\1d0b47c03215b3d8bf70d472eda6becc\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\f2a7a35d8ba4c09cc4acc139d89dd0f0\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

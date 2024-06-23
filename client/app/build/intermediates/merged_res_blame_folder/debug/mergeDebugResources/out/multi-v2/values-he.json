@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.followvehicle.app-mergeDebugResources-74:/values-he/values-he.xml",
+            "outputFile": "com.example.followvehicle.app-mergeDebugResources-75:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\316eb2da1f33fa5deb6528d098c7d18e\\transformed\\base-2.15.2\\res\\values-he\\values-he.xml",
-                    "from": {
-                        "startLines": "2,8,9,10",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "100,357,418,498",
-                        "endLines": "7,8,9,10",
-                        "endColumns": "14,60,79,79",
-                        "endOffsets": "352,413,493,573"
-                    },
-                    "to": {
-                        "startLines": "2,8,10,14",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "100,357,468,704",
-                        "endLines": "7,8,10,14",
-                        "endColumns": "14,60,79,79",
-                        "endOffsets": "352,413,543,779"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\b7e296cdd66eb4a11ec407fb22abeec6\\transformed\\utils-2.15.2\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\f1370e25881d60049b3d46af4367de23\\transformed\\utils-2.15.2\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -40,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\06fa6acc78f92fa056d731815912fdc9\\transformed\\ui-voice-2.15.2\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\2c44be121c3f0b5de1285b99ca6799fb\\transformed\\ui-voice-2.15.2\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -54,6 +35,25 @@
                         "startOffsets": "418,784",
                         "endColumns": "49,51",
                         "endOffsets": "463,831"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\87bfcf8cc28c1892c1e1e50f62985a75\\transformed\\base-2.15.2\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,8,9,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,357,418,498",
+                        "endLines": "7,8,9,10",
+                        "endColumns": "14,60,79,79",
+                        "endOffsets": "352,413,493,573"
+                    },
+                    "to": {
+                        "startLines": "2,8,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,357,468,704",
+                        "endLines": "7,8,10,14",
+                        "endColumns": "14,60,79,79",
+                        "endOffsets": "352,413,543,779"
                     }
                 }
             ]

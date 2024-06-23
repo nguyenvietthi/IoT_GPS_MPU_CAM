@@ -138,4 +138,25 @@ public class api {
         client.newCall(request).enqueue(callback);
     }
 
+    public static void register(String email, String password, String name, Callback callback) {
+        JSONObject jsonBody = new JSONObject();
+        try {
+            jsonBody.put("email", email);
+            jsonBody.put("password", password);
+            jsonBody.put("name", name);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"), jsonBody.toString());
+
+        Request request = new Request.Builder()
+                .url(BASE_URL + "register")
+                .post(requestBody)
+                .addHeader("Content-Type", "application/json")
+                .build();
+
+        client.newCall(request).enqueue(callback);
+    }
+
 }

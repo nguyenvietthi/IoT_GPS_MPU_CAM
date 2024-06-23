@@ -1377,6 +1377,7 @@ attr suffixTextColor
 attr suggestionRowLayout
 attr surface_type
 attr svg
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -4185,6 +4186,7 @@ id fragment_container
 id fragment_container_view_tag
 id freeDriveText
 id frost
+id fullName
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -4411,6 +4413,8 @@ id progressshape
 id radio
 id ratio
 id rectangles
+id register
+id registerButton
 id report_drawn
 id reverseSawtooth
 id right
@@ -4501,6 +4505,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id surface_view
+id swipeRefreshLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -4716,6 +4721,7 @@ layout abc_tooltip
 layout activity_dummy
 layout activity_login
 layout activity_main
+layout activity_register
 layout app_bar_main
 layout content_main
 layout custom_dialog
@@ -6533,6 +6539,7 @@ styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
 styleable StyledPlayerControlView ad_marker_color ad_marker_width animation_enabled bar_gravity bar_height buffered_color controller_layout_id played_ad_marker_color played_color repeat_toggle_modes scrubber_color scrubber_disabled_size scrubber_dragged_size scrubber_drawable scrubber_enabled_size show_fastforward_button show_next_button show_previous_button show_rewind_button show_shuffle_button show_subtitle_button show_timeout show_vr_button time_bar_min_update_interval touch_target_height unplayed_color
 styleable StyledPlayerView ad_marker_color ad_marker_width animation_enabled auto_show bar_gravity bar_height buffered_color controller_layout_id default_artwork hide_during_ads hide_on_touch keep_content_on_player_reset played_ad_marker_color played_color player_layout_id repeat_toggle_modes resize_mode scrubber_color scrubber_disabled_size scrubber_dragged_size scrubber_drawable scrubber_enabled_size show_buffering show_shuffle_button show_subtitle_button show_timeout show_vr_button shutter_background_color surface_type time_bar_min_update_interval touch_target_height unplayed_color use_artwork use_controller
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

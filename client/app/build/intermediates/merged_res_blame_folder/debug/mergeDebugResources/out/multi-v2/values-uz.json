@@ -1,46 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.followvehicle.app-mergeDebugResources-74:/values-uz/values-uz.xml",
+            "outputFile": "com.example.followvehicle.app-mergeDebugResources-75:/values-uz/values-uz.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\2721d82ce4c6ed961ac2fd9985e4fafd\\transformed\\play-services-base-18.0.1\\res\\values-uz\\values.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\5188a2f40f10505408ab36d189bb53ff\\transformed\\play-services-basement-18.0.0\\res\\values-uz\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,294,440,565,670,811,940,1056,1158,1326,1430,1585,1713,1863,2021,2083,2140",
-                        "endColumns": "100,145,124,104,140,128,115,101,167,103,154,127,149,157,61,56,75",
-                        "endOffsets": "293,439,564,669,810,939,1055,1157,1325,1429,1584,1712,1862,2020,2082,2139,2215"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "145",
+                        "endOffsets": "340"
                     },
                     "to": {
-                        "startLines": "69,70,71,72,73,74,75,76,78,79,80,81,82,83,84,85,86",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5228,5333,5483,5612,5721,5866,5999,6119,6375,6547,6655,6814,6946,7100,7262,7328,7389",
-                        "endColumns": "104,149,128,108,144,132,119,105,171,107,158,131,153,161,65,60,79",
-                        "endOffsets": "5328,5478,5607,5716,5861,5994,6114,6220,6542,6650,6809,6941,7095,7257,7323,7384,7464"
+                        "startLines": "77",
+                        "startColumns": "4",
+                        "startOffsets": "6225",
+                        "endColumns": "149",
+                        "endOffsets": "6370"
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\316eb2da1f33fa5deb6528d098c7d18e\\transformed\\base-2.15.2\\res\\values-uz\\values-uz.xml",
-                    "from": {
-                        "startLines": "2,6,7,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "100,272,344,424",
-                        "endLines": "5,6,7,8",
-                        "endColumns": "14,71,79,81",
-                        "endOffsets": "267,339,419,501"
-                    },
-                    "to": {
-                        "startLines": "19,143,145,149",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "739,11722,11875,12108",
-                        "endLines": "22,143,145,149",
-                        "endColumns": "14,71,79,81",
-                        "endOffsets": "906,11789,11950,12185"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\1d0b47c03215b3d8bf70d472eda6becc\\transformed\\appcompat-1.6.1\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\f2a7a35d8ba4c09cc4acc139d89dd0f0\\transformed\\appcompat-1.6.1\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,24 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\c6ca0b23f9871a09301bc1c6be7a9b63\\transformed\\exoplayer-core-2.18.5\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\90a07eab55d706c63ce806557b29d405\\transformed\\core-1.13.0\\res\\values-uz\\values-uz.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,120,186,256,320,399,467,569,663",
-                        "endColumns": "64,65,69,63,78,67,101,93,79",
-                        "endOffsets": "115,181,251,315,394,462,564,658,738"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,259,360,460,568,672,791",
+                        "endColumns": "101,101,100,99,107,103,118,100",
+                        "endOffsets": "152,254,355,455,563,667,786,887"
                     },
                     "to": {
-                        "startLines": "113,114,115,116,117,118,119,120,121",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "9672,9737,9803,9873,9937,10016,10084,10186,10280",
-                        "endColumns": "64,65,69,63,78,67,101,93,79",
-                        "endOffsets": "9732,9798,9868,9932,10011,10079,10181,10275,10355"
+                        "startLines": "59,60,61,62,63,64,65,215",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "4186,4288,4390,4491,4591,4699,4803,17483",
+                        "endColumns": "101,101,100,99,107,103,118,100",
+                        "endOffsets": "4283,4385,4486,4586,4694,4798,4917,17579"
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\7138cde3f4652d282c4b81a40a3f7460\\transformed\\material-1.12.0\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\ef58ee240e0ebb14382dd8b03277a680\\transformed\\material-1.12.0\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -93,41 +74,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\d27f02dd4936482d2afe3756494ff03d\\transformed\\play-services-basement-18.0.0\\res\\values-uz\\values.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\ca1b9cbb0e9cd45b10af97c2f12f1292\\transformed\\play-services-base-18.0.1\\res\\values-uz\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "145",
-                        "endOffsets": "340"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,294,440,565,670,811,940,1056,1158,1326,1430,1585,1713,1863,2021,2083,2140",
+                        "endColumns": "100,145,124,104,140,128,115,101,167,103,154,127,149,157,61,56,75",
+                        "endOffsets": "293,439,564,669,810,939,1055,1157,1325,1429,1584,1712,1862,2020,2082,2139,2215"
                     },
                     "to": {
-                        "startLines": "77",
-                        "startColumns": "4",
-                        "startOffsets": "6225",
-                        "endColumns": "149",
-                        "endOffsets": "6370"
+                        "startLines": "69,70,71,72,73,74,75,76,78,79,80,81,82,83,84,85,86",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5228,5333,5483,5612,5721,5866,5999,6119,6375,6547,6655,6814,6946,7100,7262,7328,7389",
+                        "endColumns": "104,149,128,108,144,132,119,105,171,107,158,131,153,161,65,60,79",
+                        "endOffsets": "5328,5478,5607,5716,5861,5994,6114,6220,6542,6650,6809,6941,7095,7257,7323,7384,7464"
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\317de3dbdfe61554e52af52384037e8d\\transformed\\core-1.13.0\\res\\values-uz\\values-uz.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,157,259,360,460,568,672,791",
-                        "endColumns": "101,101,100,99,107,103,118,100",
-                        "endOffsets": "152,254,355,455,563,667,786,887"
-                    },
-                    "to": {
-                        "startLines": "59,60,61,62,63,64,65,215",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "4186,4288,4390,4491,4591,4699,4803,17483",
-                        "endColumns": "101,101,100,99,107,103,118,100",
-                        "endOffsets": "4283,4385,4486,4586,4694,4798,4917,17579"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\4ce6a391cfc281c321926be5e167cc77\\transformed\\navigation-ui-2.7.7\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\2d563e9443ae5bd548feadc5f84df745\\transformed\\navigation-ui-2.7.7\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -144,7 +108,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\b7e296cdd66eb4a11ec407fb22abeec6\\transformed\\utils-2.15.2\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\f1370e25881d60049b3d46af4367de23\\transformed\\utils-2.15.2\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -161,7 +125,43 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\2d2e76e777dbfaf92d44d5104eae53bf\\transformed\\exoplayer-ui-2.18.5\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\9afc3da6442b88ff94135634e9dd058c\\transformed\\exoplayer-core-2.18.5\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,186,256,320,399,467,569,663",
+                        "endColumns": "64,65,69,63,78,67,101,93,79",
+                        "endOffsets": "115,181,251,315,394,462,564,658,738"
+                    },
+                    "to": {
+                        "startLines": "113,114,115,116,117,118,119,120,121",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "9672,9737,9803,9873,9937,10016,10084,10186,10280",
+                        "endColumns": "64,65,69,63,78,67,101,93,79",
+                        "endOffsets": "9732,9798,9868,9932,10011,10079,10181,10275,10355"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\87bfcf8cc28c1892c1e1e50f62985a75\\transformed\\base-2.15.2\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2,6,7,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,272,344,424",
+                        "endLines": "5,6,7,8",
+                        "endColumns": "14,71,79,81",
+                        "endOffsets": "267,339,419,501"
+                    },
+                    "to": {
+                        "startLines": "19,143,145,149",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "739,11722,11875,12108",
+                        "endLines": "22,143,145,149",
+                        "endColumns": "14,71,79,81",
+                        "endOffsets": "906,11789,11950,12185"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\609da473b1b8d472a3ef1807bc83dfb6\\transformed\\exoplayer-ui-2.18.5\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

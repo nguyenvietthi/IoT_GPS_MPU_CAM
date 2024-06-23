@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.example.followvehicle.api.StoreUserData;
 
@@ -21,8 +22,13 @@ public class ShowNotification extends Fragment {
 
 
     private RecyclerView recyclerView;
-    private NotificationAdapter adapter;
+    private CustomAdapter adapter;
     private List<String> notificationList;
+
+    private SwipeRefreshLayout swipeRefreshLayout;
+
+    List<Item> items;
+
 
     @Nullable
     @Override
@@ -33,38 +39,47 @@ public class ShowNotification extends Fragment {
 
         notificationList = StoreUserData.getInstance(requireContext()).getNotifications();
         Collections.reverse(notificationList);
-        List<Item> items = new ArrayList<>();
+        items = new ArrayList<>();
 
         for(String str:notificationList){
-            items.add(new Item(StoreUserData.getInstance(requireContext()).getKeyDeviceCode(), str));
+            String[] parts = str.split(": ", 2);
+            String dateTime = parts[0].replace("Lúc ", "");
+            String text = parts[1];
+
+            items.add(new Item(dateTime, text));
         }
 
-
-
-
-        CustomAdapter adapter = new CustomAdapter(requireContext(), R.layout.list_item, items);
+        adapter = new CustomAdapter(requireContext(), R.layout.list_item, items);
         listView.setAdapter(adapter);
 
-//        recyclerView = view.findViewById(R.id.recyclerViewNotifications);
-//
-//        // Dữ liệu mẫu cho thông báo
-////        notificationList = new ArrayList<>();
-////        notificationList.add("Thông báo 1");
-////        notificationList.add("Thông báo 2");
-////        notificationList.add("Thông báo 3");
-//        notificationList = StoreUserData.getInstance(requireContext()).getNotifications();
-//        Collections.reverse(notificationList);
-//        // Khởi tạo adapter và gán cho RecyclerView
-//        adapter = new NotificationAdapter(notificationList);
-//        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-//        recyclerView.setAdapter(adapter);
+        swipeRefreshLayout = view.findViewById(R.id.swipeRefreshLayout);
+
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+
+                notificationList = StoreUserData.getInstance(requireContext()).getNotifications();
+                Collections.reverse(notificationList);
+                items = new ArrayList<>();
+
+
+                for(String str:notificationList){
+                    String[] parts = str.split(": ", 2);
+                    String dateTime = parts[0].replace("Lúc ", "");
+                    String text = parts[1];
+
+                    items.add(new Item(dateTime, text));
+                }
+
+                adapter.clear();
+                adapter.addAll(items);
+                adapter.notifyDataSetChanged();
+
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
 
         return view;
     }
 
-    // Phương thức để thêm thông báo mới
-    public void addNotification(String notification) {
-        notificationList.add(notification);
-        adapter.notifyItemInserted(notificationList.size() - 1);
-    }
 }

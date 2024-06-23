@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -18,6 +19,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
@@ -30,6 +32,7 @@ import android.widget.Toast;
 
 import com.example.followvehicle.MainActivity;
 import com.example.followvehicle.R;
+import com.example.followvehicle.RegisterActivity;
 import com.example.followvehicle.api.StoreUserData;
 import com.example.followvehicle.api.api;
 import com.example.followvehicle.databinding.ActivityLoginBinding;
@@ -93,6 +96,21 @@ public class LoginActivity extends AppCompatActivity {
 
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        TextView registerTextView = binding.register;
+        registerTextView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_UP:
+                        registerTextView.setTypeface(registerTextView.getTypeface(), Typeface.NORMAL);
+                        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                        startActivity(intent);
+                        return true;
+                }
+                return false;
+            }
+        });
 
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);

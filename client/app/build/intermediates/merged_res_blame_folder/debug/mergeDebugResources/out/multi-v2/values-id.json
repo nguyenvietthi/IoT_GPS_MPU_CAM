@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.followvehicle.app-mergeDebugResources-74:/values-id/values-id.xml",
+            "outputFile": "com.example.followvehicle.app-mergeDebugResources-75:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\316eb2da1f33fa5deb6528d098c7d18e\\transformed\\base-2.15.2\\res\\values-id\\values-id.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "64",
-                        "endOffsets": "115"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\06fa6acc78f92fa056d731815912fdc9\\transformed\\ui-voice-2.15.2\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\2c44be121c3f0b5de1285b99ca6799fb\\transformed\\ui-voice-2.15.2\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "120,177",
                         "endColumns": "56,59",
                         "endOffsets": "172,232"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VIETTHI\\.gradle\\caches\\transforms-4\\87bfcf8cc28c1892c1e1e50f62985a75\\transformed\\base-2.15.2\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
                     }
                 }
             ]

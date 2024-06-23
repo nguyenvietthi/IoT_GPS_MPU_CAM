@@ -57,6 +57,7 @@ id dateTimeEditText2
 id drawer_layout
 id email
 id fragment_container
+id fullName
 id gyroxLabel
 id gyroxValue
 id gyroyLabel
@@ -82,8 +83,11 @@ id nav_view
 id notification_list
 id password
 id progressshape
+id register
+id registerButton
 id seekBarTime
 id statusLabel
+id swipeRefreshLayout
 id temperature
 id temperatureValue
 id textView
@@ -94,6 +98,7 @@ id username
 id webView
 layout activity_login
 layout activity_main
+layout activity_register
 layout app_bar_main
 layout content_main
 layout fragment_bottom_sheet
