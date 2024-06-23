@@ -86,13 +86,14 @@ def get_db_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
-def insert_user(email, password, cookie):
+def insert_user(email, password, cookie, name):
     with get_db_connection() as conn:
-        conn.execute('INSERT INTO account (email, password, cookie) VALUES (?, ?, ?)', (email, password, cookie))
+        conn.execute('INSERT INTO account (email, password, cookie, name) VALUES (?, ?, ?, ?)', (email, password, cookie, name))
         conn.commit()
 
 def update_location(api_key, lat, lng, speed, sat, alt):
     with get_db_connection() as conn:
+        print(api_key, lat, lng, speed, sat, alt, get_current_time())
         conn.execute('INSERT INTO gps (device_id, lat, lng, speed, sat, alt, datetime) VALUES (?, ?, ?, ?, ?, ?, ?)', (api_key, lat, lng, speed, sat, alt, get_current_time()))
         conn.commit()
 
@@ -207,7 +208,7 @@ def get_gps_data():
 # var msg8 = { payload: msg.payload.time };
 
     info_json = request.get_json()
-    # print(info_json)
+    print(info_json)
     api_key = info_json["api_key"]
     sensor = info_json["sensor"]
     lat = info_json["lat"]
@@ -226,7 +227,7 @@ def get_gps_data():
 @app.route('/check', methods = ['POST', "GET"])
 def check():
     try:
-        socketio.emit('message_from_server', {'message': "CHECK Notification"}, namespace='/')
+        socketio.emit('message_from_server', {'message': "Lúc 2024-03-02 16:12:22: Nghiên xe"}, namespace='/')
     except:
         pass
     response_body = {"message": "OK"}
@@ -258,10 +259,13 @@ def get_mpu_data():
 
     update_mpu(api_key, accx, accy, accz, gyrox, gyroy, gyroz, temperature)
 
-    mpu_status = mcu_alert("motorbyke", float(accx), float(accy), float(accz))
+    print(accx, accy, accz)
+
+    mpu_status = mcu_alert("motorbyke", float(accx)*100, float(accy)*100, float(accz))
+    print(mpu_status)
 
     if(mpu_status[0] != "" or mpu_status[1] != ""):
-        socketio.emit('message_from_server', {'message': mpu_status[0] + " " + mpu_status[1]}, namespace='/')
+        socketio.emit('message_from_server', {'message': "Lúc " + get_current_time() + ": " + mpu_status[0] + " " + mpu_status[1]}, namespace='/')
 
     response_body = {"message": "OK"}
     response = make_response(jsonify(response_body), 200)
@@ -307,6 +311,22 @@ def login():
 
 
     # print(response_body)
+
+    response = make_response(jsonify(response_body), 200)
+    return response
+
+@app.route('/register', methods=['POST'])
+def register():
+    email = request.json.get('email')
+    password = request.json.get('password')
+    name = request.json.get('name')
+
+    
+    try:
+        insert_user(email=email, password=password, cookie="None", name=name)
+        response_body = {"message": "OK"}
+    except:
+        response_body = {"message": "FAIL"}
 
     response = make_response(jsonify(response_body), 200)
     return response
