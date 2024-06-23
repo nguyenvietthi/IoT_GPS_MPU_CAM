@@ -15,7 +15,7 @@ import com.example.followvehicle.api.StoreUserData;
 
 public class WebSocketClient {
     private static final String TAG = "WebSocketClient";
-    private static final String SOCKET_URL = "http://192.168.1.68:1234"; // Thay đổi địa chỉ IP
+    private static final String SOCKET_URL = "http://20.2.67.40:1234"; // Thay đổi địa chỉ IP
     private Socket socket;
     private Context context;
 
