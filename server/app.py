@@ -261,7 +261,7 @@ def get_mpu_data():
 
     print(accx, accy, accz)
 
-    mpu_status = mcu_alert("motorbyke", float(accx)*100, float(accy)*100, float(accz))
+    mpu_status = mcu_alert("motorbyke", float(accx), float(accy), float(accz))
     print(mpu_status)
 
     if(mpu_status[0] != "" or mpu_status[1] != ""):
